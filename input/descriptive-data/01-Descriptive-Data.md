@@ -1,7 +1,7 @@
 ---
 title: 'ST4011 - Jamovi Basics & Descriptive Data'
 pandocomatic_:
-    use-template: web
+    use-template: word
 ---
 
 ## Objectives
@@ -310,7 +310,7 @@ Then, you can click the Statistic menu bar again to fold it out of the way, and 
 
 This is a histogram for our entire data set, but we can split this by **Gender** exactly as we did for the Descriptives. Move Gender into the Split By box and see what happens to our histogram:
 
-![Histogram for Weight by Gender](_imgs/01-17.png)
+![](_imgs/01-17.png)
 
 You can split your data using any Nominal or Ordinal variable - try moving other variables in and out of the Split By box to see how the histogram changes.
 
@@ -417,7 +417,7 @@ Before we work out our standardised values though, let's change the number of de
 
 Now we can calculate our standardised skewness and kurtosis values:
 
-![Standardised skewness and kurtosis formulas](_imgs/01-23.png)
+![](_imgs/01-23.png)
 
 These values can now be compared to the values we would expect to get by chance alone, so a value less than -1.96 or greater than 1.96 would suggest that this distribution is significantly skewed or shows significant kurtosis. Both of our values are within this range so we can be happy that our data satisfies the condition of normality.
 
