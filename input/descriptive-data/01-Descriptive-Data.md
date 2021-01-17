@@ -29,6 +29,47 @@ As you work through this worksheet, there will be **Learning Checks** in grey bo
 :::
 ::::
 
+:::: {.wordonly}
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+<w:sdt>
+	<w:sdtPr>
+	    <w:docPartObj>
+	        <w:docPartGallery w:val="Table of Contents" />
+	        <w:docPartUnique />
+	    </w:docPartObj>
+	</w:sdtPr>
+	<w:sdtContent>
+	    <w:p>
+	        <w:pPr>
+	            <w:pStyle w:val="TOCHeading" />
+	        </w:pPr>
+	        <w:r>
+	            <w:t>Contents</w:t>
+	        </w:r>
+	    </w:p>
+	    <w:p>
+	        <w:r>
+	            <w:fldChar w:fldCharType="begin" w:dirty="true" />
+	            <w:instrText xml:space="preserve"> TOC \o "1-3" \h \z \u </w:instrText>
+	            <w:fldChar w:fldCharType="separate" />
+	            <w:fldChar w:fldCharType="end" />
+	        </w:r>
+	    </w:p>
+	</w:sdtContent>
+</w:sdt>
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
+::::
+
 ## Installing Jamovi & how to get further help
 
 Download Jamovi for your computer from:
