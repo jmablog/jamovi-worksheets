@@ -5,6 +5,7 @@ templates:
     worksheet:
         glob: ["*.md"]
         pandoc:
+            from: markdown+raw_attribute
             to: docx
             use-extension: docx
             reference-doc: templates/jamovi-worksheets.docx
