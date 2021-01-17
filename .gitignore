@@ -1,4 +1,4 @@
 *.docx
-*.omv
 *.ninja_log
 /.ninja_log
+_*.omv
