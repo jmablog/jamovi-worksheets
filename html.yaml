@@ -9,7 +9,7 @@ templates:
             standalone: true
             self-contained: true
             toc: true
-            template: templates/jamovi-worksheets/jamovi-worksheets.html5
+            template: templates/jamovi-worksheets.html5
     index:
         glob: ["*.md"]
         pandoc:
@@ -17,5 +17,5 @@ templates:
             standalone: true
             self-contained: true
             toc: false
-            template: templates/jamovi-worksheets/jamovi-worksheets.html5
+            template: templates/jamovi-worksheets.html5
             output: index.html
