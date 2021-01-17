@@ -8,5 +8,5 @@ templates:
             from: markdown+raw_attribute
             to: docx
             use-extension: docx
-            reference-doc: templates/jamovi-worksheets.docx
+            reference-doc: templates/jamovi-worksheets/jamovi-worksheets.docx
             #toc: true
