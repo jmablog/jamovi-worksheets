@@ -17,6 +17,6 @@ templates:
             to: html
             standalone: true
             self-contained: true
-            toc: true
+            toc: false
             template: templates/jamovi-worksheets.html5
             output: index.html

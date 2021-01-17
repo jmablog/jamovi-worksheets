@@ -9,12 +9,3 @@ templates:
             use-extension: docx
             reference-doc: templates/jamovi-worksheets.docx
             #toc: true
-    index:
-        glob: ["*.md"]
-        pandoc:
-            to: html
-            standalone: true
-            self-contained: true
-            toc: true
-            template: templates/jamovi-worksheets.html5
-            output: index.html
