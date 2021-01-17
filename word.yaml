@@ -1,6 +1,6 @@
 # run with pandocomatic -i input -o docs -c word.yaml
 settings:
-    skip: ["_*"]
+    skip: ["_*", "index.md"]
 templates:
     worksheet:
         glob: ["*.md"]

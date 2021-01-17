@@ -1,0 +1,10 @@
+rule pandoc2word
+    command = pandocomatic -i $in -o $out -c word.yaml
+    description = pandocomatic to word
+
+rule pandoc2web
+    command = pandocomatic -i $in -o $out -c web.yaml
+    description = pandocomatic to web
+
+build docx: pandoc2word input
+build docs: pandoc2web input
