@@ -10,15 +10,13 @@ summary: |
     - Parametric Testing
 
     ::: {.Note custom-style="QuestionList"}
-    As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or on a separate notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can answer these in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
     :::
 pandocomatic_:
     use-template: worksheet
 ---
 :::: {.wordonly}
-## Objectives
-
-By the end of this worksheet, you will have an appreciation of the following Jamovi tools and functions:
+By the end of this worksheet, you will have an appreciation of the following:
 
 - Navigating and using the Jamovi environment 
 - Exploring and Creating Variables and Cases 
@@ -27,7 +25,7 @@ By the end of this worksheet, you will have an appreciation of the following Jam
 - Parametric Testing
 
 ::: {.Note custom-style="QuestionList"}
-As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or on a separate notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
 :::
 ::::
 
@@ -126,7 +124,7 @@ Directly underneath the large Label area is another text box - this is the **Des
 Why do we use separate labels and descriptions? When you're working with a variable, sometimes it can be annoying to type in the full name over and over again - 'PartID' is a lot quicker to type than 'Participant ID'. But, when we want to see our results, we want the full description of the variable to make it easier and clearer to see what our results are referring to.
 :::
 
-I now want you to change as couple of variable properties:
+I now want you to change a couple of variable properties:
 
 - You can see that most of our variables have a Name and Description, but two are missing. For the column **Age** enter the description 'Age (years)' and for the **Gender** column enter the description 'Gender'.
 
@@ -485,7 +483,15 @@ Q19.	 Would you be happy running a parametric test on this data? And why?
 
 :::
 
-\newpage
+:::: {.wordonly}
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
+::::
 
 ## Answers to questions
 
