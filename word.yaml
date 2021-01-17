@@ -1,23 +1,14 @@
-# run with pandocomatic -c config.yaml -i input -o docs
+# run with pandocomatic -i input -o docs -c word.yaml
 settings:
     skip: ["_*"]
-    #follow-links: true
 templates:
-    word:
+    worksheet:
         glob: ["*.md"]
         pandoc:
             to: docx
             use-extension: docx
             reference-doc: templates/jamovi-worksheets.docx
-    web:
-        glob: ["*.md"]
-        pandoc:
-            to: html
-            standalone: true
-            self-contained: true
-            toc: true
-            template: templates/jamovi-worksheets.html5
-            output: index.html
+            #toc: true
     index:
         glob: ["*.md"]
         pandoc:

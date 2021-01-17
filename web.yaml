@@ -1,15 +1,8 @@
-# run with pandocomatic -c config.yaml -i input -o docs
+# run with pandocomatic -i input -o docs -c web.yaml 
 settings:
     skip: ["_*"]
-    #follow-links: true
 templates:
-    word:
-        glob: ["*.md"]
-        pandoc:
-            to: docx
-            use-extension: docx
-            reference-doc: templates/jamovi-worksheets.docx
-    web:
+    worksheet:
         glob: ["*.md"]
         pandoc:
             to: html

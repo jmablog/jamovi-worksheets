@@ -1,9 +1,21 @@
 ---
 title: 'ST4011 - Jamovi Basics & Descriptive Data'
-pandocomatic_:
-    use-template: word
----
+summary: |
+    By the end of this worksheet, you will have an appreciation of the following Jamovi tools and functions:
 
+    - Navigating and using the Jamovi environment 
+    - Exploring and Creating Variables and Cases 
+    - Descriptive Data 
+    - Simple Graphs and Boxplots 
+    - Parametric Testing
+
+    ::: {.Note custom-style="QuestionList"}
+    As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or on a separate notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    :::
+pandocomatic_:
+    use-template: worksheet
+---
+:::: {.wordonly}
 ## Objectives
 
 By the end of this worksheet, you will have an appreciation of the following Jamovi tools and functions:
@@ -17,6 +29,7 @@ By the end of this worksheet, you will have an appreciation of the following Jam
 ::: {.Note custom-style="QuestionList"}
 As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or on a separate notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
 :::
+::::
 
 ## Installing Jamovi & how to get further help
 
