@@ -4,7 +4,7 @@ pandocomatic_:
     use-template: index
 ---
 
-Click each link below to access each worksheet:
+Click each link below to access the worksheet:
 
 1. [Jamovi Basics & Descriptive Data](descriptive-data/index.html)
 2. [Relationships](relationships/index.html)
