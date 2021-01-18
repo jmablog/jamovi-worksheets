@@ -1,0 +1,48 @@
+# run with pandocomatic -i input -o docs -c config.yaml --modified-only
+settings:
+    skip: ["_*", ".*"]
+    recursive: true
+    follow-links: false
+    match-files: all
+templates:
+    worksheet-word:
+        glob: ["*-Worksheet.md"]
+        pandoc:
+            from: markdown+raw_attribute+raw_tex
+            to: docx
+            use-extension: docx
+            reference-doc: ./../../templates/jamovi-worksheets.docx
+            #toc: true
+    worksheet-html:
+        glob: ["*-Worksheet.md"]
+        pandoc:
+            from: markdown+raw_attribute+raw_tex
+            to: html
+            standalone: true
+            self-contained: true
+            toc: true
+            template: ./../../templates/jamovi-worksheets.html5
+    worksheet-github:
+        glob: ["*-Worksheet.md"]
+        extends: ['worksheet-html']
+        pandoc:
+            output: index.html
+    index:
+        glob: ["index.md"]
+        pandoc:
+            from: markdown+raw_attribute+raw_tex
+            to: html
+            standalone: true
+            self-contained: true
+            template: ./../../templates/jamovi-worksheets.html5
+            toc: false
+    worksheet-pdf:
+        glob: ["*-Worksheet.md"]
+        pandoc:
+            from: markdown+raw_attribute+raw_tex
+            to: pdf
+            standalone: true
+            self-contained: true
+            pdf-engine: lualatex
+            metadata-file: ./../../templates/jamovi-worksheets.yaml
+            template: ./../../templates/jamovi-worksheets.tex
