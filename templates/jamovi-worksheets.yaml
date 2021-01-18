@@ -1,0 +1,11 @@
+fontsize: 12pt
+mainfont: Helvetica
+geometry: margin=1in
+linestretch: 1.5
+hyperrefoptions:
+- linktocpage=true
+- linktoc=all
+- pdfwindowui
+- pdfpagemode=FullScreen
+colorlinks: true
+toc: true
