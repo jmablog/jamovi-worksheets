@@ -1,4 +1,3 @@
-*.docx
-*.ninja_log
-/.ninja_log
+*-Worksheet.docx
+*-Worksheet.pdf
 _*.omv
