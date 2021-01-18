@@ -1,28 +1,21 @@
 ---
 title: 'ST4011 - Relationships'
-summary: |
+abstract: |
     At this level you will be expected to know about two ways of looking for relationships between your data. These are:
 
     - Correlation
     - Regression
 
     ::: {.Note custom-style="QuestionList"}
-    As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can answer these in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    ```{=latex}
+    \begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+    ```
+    As you work through this worksheet, there will be **learning checks** (numbered Q1, Q2, etc.) that ask you questions about what has just been covered. These questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    ```{=latex}
+    \end{tcolorbox}
+    ```
     :::
-pandocomatic_:
-    use-template: worksheet
 ---
-
-:::: {.wordonly}
-At this level you will be expected to know about two ways of looking for relationships between your data. These are:
-
-- Correlation
-- Regression
-
-::: {.Note custom-style="QuestionList"}
-As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
-:::
-::::
 
 :::: {.wordonly}
 ```{=openxml}
@@ -78,15 +71,29 @@ Before we do our new tests, let's clear the Results viewer so we can start from 
 In our data set, you will remember we measured the body fat using two separate machines, **BIA1** and **BIA2**. We did this to check the machines were giving the same value.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q1. By using two separate machines are we testing for validity or reliability?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Look at the BIA1 and BIA2 columns now. From visual inspection it does appear that the two numbers are similar – but how similar? In this section we are going to see how close each machine is to the other in reporting body fat percentage. We are going to examine this using a bivariate correlation (a correlation between two variables), remembering that this will only work for data with a linear relationship (this is an assumption we will make at this stage).
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Note**: Just because there may be strong correlation between two values, it does not mean that the two values are the same. It just says that for every unit increase in one variable there is similar unit increase in the other.  You cannot use this method alone to test for inter-machine (or inter-tester reliability). Use Intra-Class Correlations for this – see [Koo *et al*. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S1556370716000158), *A guideline of selecting and reporting intraclass correlation coefficients for reliability research* for details.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Let's run the correlation analysis. Click on **Analyses**, then the **Regression** icon, then choose **Correlation Matrix**.
@@ -99,18 +106,18 @@ In the options underneath, make sure **Pearson** is ticked, then **Report Signif
 
 The correlation matrix shows a row for each variable, and a column for each variable, so for 2 variables you will have 4 correlations (BIA1/BIA1, BIA1/BIA2, BIA2/BIA1 and BIA2/BIA2). Jamovi only fills in the results for **unique** combinations of rows and columns - so it doesn't show anything for the top right corner as it's exactly the same as the bottom left corner.
 
+Jamovi also doesn't show how a variable correlates with itself, so here, the BIA1/BIA1 and BIA2/BIA2 combinations are also left blank. This makes it easier to see just the information we are after - the correlation between BIA1 and BIA2.
+
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q2. Why does Jamovi not show how a variable correlates with itself?
 
 
 Q3. If it did show this information, what would you expect the Pearson's *r* result to be?
 
 
-:::
-
-Jamovi also doesn't show how a variable correlates with itself, so here, the BIA1/BIA1 and BIA2/BIA2 combinations are also left blank. This makes it easier to see just the information we are after - the correlation between BIA1 and BIA2.
-
-::: {.Note custom-style="QuestionList"}
 Q4. What is the Pearson correlation coefficient between BIA1 and BIA2?
 
 
@@ -123,6 +130,9 @@ Q6. What would a single star (*) mean instead?
 Q7. For a correlation what does the significance value tell us?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 So, this correlation could be written as:
@@ -130,12 +140,23 @@ So, this correlation could be written as:
 Body fat recorded on BIA1 was significantly correlated with body fat from BIA2, *r*(46) = 0.990, *p* < 0 .001.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Note:** pay attention to how you format your findings when typing them out like this - notice the *italics* on both *r* and *p*, and the single space either side of the less than (<), and equals (=) signs.)
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 **Now you try:** Using the same data set, perform a bivariate correlation between weight and height (no groupings).
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q8. What is the Pearson coefficient? Using the Fitz-Gibbon and Morris categories (from your lecture notes) how strong is this relationship? 
 
 
@@ -146,6 +167,9 @@ Q10. Using the Pearson correlation coefficient *r*, what is the *R^2^* (coeffici
 
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ## Regression
@@ -165,6 +189,9 @@ In Jamovi, open the **BikeFit.omv** data file.
 Our first question is to see if we can predict the seat height (**SeatHt** variable) from inside leg length (**FKPInseam** variable, named because we used a piece of equipment called the FitKitPro Inseam Measurement Device).
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q11. In this example, what is the independent variable and what is the dependent variable?
 
 
@@ -172,6 +199,9 @@ Q12. Before going into the regression analysis, perform a Pearson bivariate corr
 
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 For regression modelling, click **Analyses**, then **Regression**, then **Linear Regression**. The Regression menu will pop up in the middle, and an empty table will appear in the Results viewer. 
@@ -179,9 +209,17 @@ For regression modelling, click **Analyses**, then **Regression**, then **Linear
 Move **SeatHt** into the Dependent variable selection box, and move **FKPInseam** into the Covariates selection box.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Note:** Regression in Jamovi is in two stages. Covariates just means all the variables that we are interested in, besides our dependent variable, but *not necessarily* all our covariates will become our independent variables.
 
 Once we've picked all our covariates, we then tell Jamovi which of those to take a step further and actually use as independent variables for our regression. For now, we'll just always make our covariates and independent variables the same, to keep things simple.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Click the **Model Builder** option underneath our variable selection area. You should see the same variables we selected as Covariates above - in this case, **FKPInseam**. Move this over to the area titled **Block 1**.
@@ -189,7 +227,15 @@ Click the **Model Builder** option underneath our variable selection area. You s
 ![](_imgs/02-05.png)
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Note:** You might find Jamovi has automatically moved your covariates into blocks in the model builder for you. If so, great!
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Some regression results should finally pop up in the Results viewer. Let's look at those two tables:
@@ -214,12 +260,18 @@ Seat Height = 3.794 + 0.824 * Inseam (in cm)
 Just substitute your inseam measurement (in centimetres) into the formula to get a prediction of seat height.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q13. If your participant has an inseam of 70cm, what is their predicted seat height (to 1 decimal place)?
 
 
 Q14. What is the significance for the constant and the one predictor variable? What do these values mean?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 **Now you try:** The crank arm length (Crank Length - CL) is the distance between the bottom bracket and the pedal, effectively what constrains the pedal in its circle. 
@@ -229,6 +281,9 @@ Q14. What is the significance for the constant and the one predictor variable? W
 Research has shown that this is related to the leg length (Fit Kit Pro Inseam – FKPInseam). So now, produce a model to predict **crank length** from **inseam** length.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q15. What is the Independent Variable?
 
 
@@ -247,6 +302,9 @@ Q19. What is the model equation for crank length?
 Q20. What is the significance of the constant and single coefficient, and what does this mean?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ### Multiple linear regression
@@ -262,9 +320,15 @@ The model we expect to find is:
 Reach~i~ = b~0~ + b~1~(Torso length) + b~2~(Arm Length)
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q21. From the lecture slides on regression modelling, what and before we can run the model, how big should our sample be when we have two predictors? 
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 First, clear your Results viewer. Then, open the **Linear Regression** menu the same way as before.
@@ -276,18 +340,32 @@ Now, let's actually make two models, so we can compare how each performs. Move *
 ![](_imgs/02-08.png)
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 To see each model's coefficients, click the dropdown menu next to the 'Model Specific Results' heading in the Results viewer, and choose either Model 1 or Model 2.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 We can now use the Model Fit Measures table in the Results viewer to see how our two models perform.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q22. How strong is the Pearson correlation coefficient for each model?
 
 
 Q23. What is the R^2^ value for each model and what does it mean?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Let's focus on the R^2^ column - remember that R^2^ shows how much variance our model explains in our dependent variable. Model 1 explains around 27% of the variance, while Model 2 explains around 40%. Model 2 is explaining more variance, so we can think of it as a 'better' model - so let's use it to build our prediction formula. 
@@ -297,22 +375,37 @@ Make sure the Model Specific Results section is showing Model 2 in the Results v
 Reach = 15.327 + 0.079 * (Fit Kit Pro Sternal) + 0.663 * (Whole Arm).
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q24. For a child with a sternal height of 42 cm and an arm length of 51 cm what would be the expected reach? (Remember that all values should be entered in centimetres.)
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 The significance value again can be read as a measure of whether the predictor is making a significant contribution to the model. The smaller the value of *p*, the greater contribution to the model. In the Reach model, it is clear that arm length makes a significant contribution (*p* < 0.001), but the torso height (Fit Kit Pro Sternal) is not significant (*p* = 0.578).
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q25. Run the linear regression again, but with just the arm length. What new R^2^ value does this give?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 **Now You Try:** We have seen there is a good model of reach when using torso and arm length, but is drop as easy to predict? Create a multiple linear regression model using arm length (**Arm**), sternal height (**FKPStSternal**) and maximum sit and reach values (**SnRMax**) to predict drop (**Drop**).
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q26. What is the dependent variable?
 
 
@@ -337,6 +430,9 @@ Q32. 	Discuss the significance and strength of the model.
 Q33. 	Finally, what is the equation of this model?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 :::: {.wordonly}
@@ -349,9 +445,14 @@ Q33. 	Finally, what is the equation of this model?
 ```
 ::::
 
+\newpage
+
 ## Answers to questions
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q1. Here we are examining inter-machine reliability, checking that the two machines give the same value.  We cannot say that the value is ‘true’ (valid), only that the two machines are reporting the same value (reliable).
 
 Q2. A variable will *always* perfectly correlate with itself - since we know this will always be the case, there is no point displaying the extra information.
@@ -417,4 +518,8 @@ Q29. The R^2^ is 0.139.
 Q30. The model is significant, i.e. if we were to run the experiment again, it is highly likely we would get the same result again, with *p* < 0.001. The model however is very weak, with an R^2^ of only 0.139, the variables given to the model do not predict well the handlebar drop.
 
 Q31. Drop = 32.459 – 0.408 x arm length.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::

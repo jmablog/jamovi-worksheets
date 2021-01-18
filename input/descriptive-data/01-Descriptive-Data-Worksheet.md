@@ -1,6 +1,6 @@
 ---
 title: 'ST4011 - Jamovi Basics & Descriptive Data'
-summary: |
+abstract: |
     By the end of this worksheet, you will have an appreciation of the following Jamovi tools and functions:
 
     - Navigating and using the Jamovi environment 
@@ -10,24 +10,15 @@ summary: |
     - Parametric Testing
 
     ::: {.Note custom-style="QuestionList"}
-    As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can answer these in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    ```{=latex}
+    \begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+    ```
+    As you work through this worksheet, there will be **learning checks** (numbered Q1, Q2, etc.) that ask you questions about what has just been covered. These questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    ```{=latex}
+    \end{tcolorbox}
+    ```
     :::
-pandocomatic_:
-    use-template: worksheet
 ---
-:::: {.wordonly}
-By the end of this worksheet, you will have an appreciation of the following:
-
-- Navigating and using the Jamovi environment 
-- Exploring and Creating Variables and Cases 
-- Descriptive Data 
-- Simple Graphs and Boxplots 
-- Parametric Testing
-
-::: {.Note custom-style="QuestionList"}
-As you work through this worksheet, there will be **Learning Checks** in grey boxes like this that ask you questions about what has just been covered. You can fill the answers in under the questions themselves, or in a separate document or notepad, or even just in your own head - these questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
-:::
-::::
 
 :::: {.wordonly}
 ```{=openxml}
@@ -123,6 +114,9 @@ You should see data now in the Spreadsheet view. If you want to see more of the 
 In Jamovi, each **column** represents a **variable**, similar to Excel, and each **row** represents a **case**. In Excel, we had to create a dummy Participant ID column as our case identifier. This is the same in Jamovi, which has been named 'PartID' in this file.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q1. How many columns of data are there?
 
 
@@ -135,6 +129,9 @@ Q3. Why bother with a Participant ID when there is a record number?
 Q4. Why do we need a Participant ID at all? Why not just use participant name?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Pay attention to the PartID column - note that some IDs are missing, so the row number does not always match the PartID.
@@ -162,7 +159,15 @@ You can see the name of the variable we are editing at the top, in large text. T
 Directly underneath the large Label area is another text box - this is the **Description** area, where you can add a little extra text to make it clearer what is contained in our variable. Click on the PartID column and notice how it says 'Participant ID' now - this is the full name of the variable, rather than the shorter 'PartID' label.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 Why do we use separate labels and descriptions? When you're working with a variable, sometimes it can be annoying to type in the full name over and over again - 'PartID' is a lot quicker to type than 'Participant ID'. But, when we want to see our results, we want the full description of the variable to make it easier and clearer to see what our results are referring to.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 I now want you to change a couple of variable properties:
@@ -176,9 +181,15 @@ Underneath the description are some more options. Click on the dropdown menu nex
 ![](_imgs/01-05.png)
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q5. How many measure types of data are available in Jamovi? Can you guess how these compare to the NOIR data types covered in lectures?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Jamovi has three main data types:
@@ -192,9 +203,15 @@ Nominal and Ordinal are exactly the same as covered in the lecture on data types
 Jamovi also has one extra data type, called 'ID'. This is just used by Jamovi to identify a Participant ID column - it's exactly the same as a Nominal column, but lets Jamovi know it doesn't need to worry about labelling levels for it, and to just use whatever is typed into the cells. Don't worry about the difference too much - just know that you only need to set your PartID column to 'ID', and can then forget about it!
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q6. Why would PartID be of the ID or Nominal type even though it appears to be an ordered list of numbers?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Underneath the Measure type options, click the dropdown menu for **Data type**:
@@ -226,7 +243,15 @@ Notice how the numbers 1 and 2 move to the lower right under the text you're typ
 Notice now that the cells in the Gender column in the spreadsheet change from '1' and '2' to 'Male' and 'Female'. The underlying data is still the same - we've just labelled it.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 Why use numbers and labels for nominal data? Similar to our variables names and labels, it makes it easier to work with the data but still see read our results clearly. For example, if we wanted to choose only the Male participants in this study, we could filter by 'Gender = 1', but our results would still print the full label 'Male'.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Now go through and check all the variables in our data sheet are setup correctly. You should make sure variables match the following:
@@ -246,7 +271,15 @@ Once you've checked all these variables, click on the circle icon with an Up arr
 Make sure you save your data regularly - click the three white lines in the top left to access the File menu again, then click **Save**.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Tip:** Use Ctrl + S on Windows or Cmd + S on Mac as a keyboard shortcut to save your work. Make sure to save regularly to avoid losing anything! All your data, tests, and results are saved in the same .omv file, so you can open it up again later and pick up right where you left off.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ### Computing a new variable
@@ -300,11 +333,18 @@ This is a simple way of looking at all the weights of our participants (dependen
 Notice our Results table on the right has now automatically updated to show the Descriptives we have asked for! You should be able to see the mean, median, standard deviation, minimum, and maximum for both Male and Female groups. All of these require separate equations in Excel, so you can see Jamovi is a *lot* quicker to summarise data.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q7. In your descriptive data who, on average is heavier, male or female?
+
 
 Q8. How many males and females are there? And how big is our total sample size?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Let's look at some more of our data. Previously I mentioned we had two columns, BIA1 and BIA2, where we took the body fat percentage using two ‘identical’ machines. Here we can briefly examine these two fields to compare any differences.
@@ -318,9 +358,15 @@ Now select **BIA1** and **BIA2** and move them into the Variables box. This will
 Feel free to click around any other Statistics options you might be interested in - you can add and remove as many as you like at any time in Jamovi, and the Results viewer will auto-update to show what you have changed.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q9. From the descriptive data for the two machines, would you say the machines show the ‘same’ results?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ### Frequency tables
@@ -334,6 +380,9 @@ Click the **Frequency tables** checkbox underneath our variables selection to ad
 Here you are presented with frequency as a count, as an overall percentage, and as a cumulative percentage. Top table also tells us about the total number of values and how many are missing values - that is, any cases we have that do not have a valid Course ID.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q10. How many students actually provided a course id?
 
 
@@ -343,6 +392,9 @@ Q11. Which course has the greatest percentage of students?
 Q12. What percentage of students takes Sport and Dance Therapy?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Notice that our counts in the Frequency table add up to the number of valid Course IDs we have in our data. You need to make sure you always check for any missing values in your data - in this case, you might need to go back and find that missing Course ID, or else exclude the case from any further analyses if Course ID is required.
@@ -356,7 +408,7 @@ While we expect you to generate graphs in Excel, and produce tables in MS-Word, 
 We will look at two graphs:
 
 - Histogram
-- Pie Chart
+- Box plot
 
 We will continue to use our Body Composition.omv data set. Still in the **Descriptive** menu, clear all the variables from our variable selection, and untick the Frequency table option. Move **Weight** into the variables selection and turn back on the Default descriptive statistics - tick the boxes for N, Missing, Mean, Median, Std. Deviation, Minimum, and Maximum.
 
@@ -371,9 +423,15 @@ This is a histogram for our entire data set, but we can split this by **Gender**
 You can split your data using any Nominal or Ordinal variable - try moving other variables in and out of the Split By box to see how the histogram changes.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q13. Based on the histograms, which Gender has a greater variability of weight? Why?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ### Box plots
@@ -393,9 +451,15 @@ Remember in a boxplot:
 Any outliers are shown with circles beyond the whiskers of the box plot. There are no recognised outliers in our Height data.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q14. On the boxplot, what is the approximate value for median male height and median female height?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Feel free to click around now on any other Plot or Statistics options you think look interesting, and try exploring different variables and different ways of splitting the data. Remember, if you want to remove something from the Results viewer, just untick it.
@@ -432,12 +496,18 @@ Here we are testing whether the distribution of Height (by gender) is normally d
 **Now you try:** Perform a test of normality for **Weight** by **Gender** using the Body Composition.omv data set.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q15. What test would you run?
 
 
 Q16. What p-value for the test of normality do you get for the Weight data of the Females group? What does this p-value mean?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 A simple SW test is ok to start, but you should still perform further checks on your data. The first two we will examine are **Skewness** and **Kurtosis**.
@@ -454,9 +524,15 @@ The first way we can examine this data is to look at the *absolute* values for S
 - Female kurtosis = -0.481
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q17. Based on the raw Skewness and Kurtosis values, describe the shape of your male data distribution.
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 A rule of thumb suggests that -0.8 to +0.8 is acceptable for skewness and -3 to +3 is acceptable for kurtosis. Note that the skewness for males falls outside the -0.8 to 0.8, but all other values are well within their ranges. Strictly speaking we could suggest that the male height data is not normally distributed, and has a slight positive skew (i.e. a pile up of data on the left hand side).
@@ -478,13 +554,29 @@ Now we can calculate our standardised skewness and kurtosis values:
 These values can now be compared to the values we would expect to get by chance alone, so a value less than -1.96 or greater than 1.96 would suggest that this distribution is significantly skewed or shows significant kurtosis. Both of our values are within this range so we can be happy that our data satisfies the condition of normality.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Note:** You cannot use these tests in very large samples as the standard skewness and kurtosis values are likely to be significant even if the skew and kurtosis are only slightly different to normal.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 Even though we would like to think that statistics should be clear-cut in giving us answers, you can now see  that it can often requires careful interpretation of your results. Here we have seen two tests that show our data is normally distributed, with one test that shows it is not! This is where your experience of working with numbers is going to be very useful.
 
 ::: {.Warning custom-style="Aside"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
+```
+
 **Repeated measures normality:** With independent samples data, or two different groups, you need to check for normality of each separate group. If you have a repeated measures test, e.g. your group performs a test under two different conditions, then rather than testing the normality of each group, you would test for the normality of the *difference* between the two conditions.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 ### Homogeneity of variance
@@ -520,12 +612,18 @@ We won't worry about the T-Test results for now - just look at the table titled 
 **Now you try:** Repeat the test of Homogeneity of Variance for Weight by Gender.
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q18.	 What is the Levene statistic and *p* value, and what does this mean?
 
 
 Q19.	 Would you be happy running a parametric test on this data? And why?
 
 
+```{=latex}
+\end{tcolorbox}
+```
 :::
 
 :::: {.wordonly}
@@ -536,11 +634,16 @@ Q19.	 Would you be happy running a parametric test on this data? And why?
   </w:r>
 </w:p>
 ```
-::::
+:::
+
+\newpage
 
 ## Answers to questions
 
 ::: {.Note custom-style="QuestionList"}
+```{=latex}
+\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
+```
 Q1. In this data file there are 9 columns of data: participant id, age, gender, course, weight, height, BIA1, BIA2 and FitPercept.
 
 Q2. There are 50 rows of data, or 50 ‘cases’. Do not use PartId to show the count of records.
@@ -578,4 +681,8 @@ Q17. The positive skewness value (1.028) suggests that the graph has a slightly 
 Q18. The Levene test statistic, F = 0.642, p = 0.427 (based on the mean). This means that the variances are not significantly different, so we can assume homogeneity of variance.
 
 Q19. Yes, we have satisfied the four conditions, 1. It is high level data, 2. It was randomly allocated/selected, 3. It is normally distributed, and 4. It has homogeneity of variance.
+
+```{=latex}
+\end{tcolorbox}
+```
 :::

@@ -1,7 +1,5 @@
 ---
 title: 'ST4011 - Jamovi Worksheets'
-pandocomatic_:
-    use-template: index
 ---
 
 Click each link below to access the worksheet:
