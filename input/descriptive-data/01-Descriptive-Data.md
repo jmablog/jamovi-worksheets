@@ -245,6 +245,10 @@ Once you've checked all these variables, click on the circle icon with an Up arr
 
 Make sure you save your data regularly - click the three white lines in the top left to access the File menu again, then click **Save**.
 
+::: {.Warning custom-style="Aside"}
+**Tip:** Use Ctrl + S on Windows or Cmd + S on Mac as a keyboard shortcut to save your work. Make sure to save regularly to avoid losing anything! All your data, tests, and results are saved in the same .omv file, so you can open it up again later and pick up right where you left off.
+:::
+
 ### Computing a new variable
 
 We are still missing the BMI variable, so we will create one. You could just create all the data in Excel then copy and paste it into Jamovi, but Jamovi has a **Compute Variable** function which can do the calculation for us.
