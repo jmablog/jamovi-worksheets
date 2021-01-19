@@ -62,6 +62,10 @@ abstract: |
 
 Let's continue working with our **Body Composition.omv** file from before. Open it up in Jamovi now. If you saved the file after we made all the changes in the last worksheet, it should open up with partID 53 entered, all the variables correctly setup and labelled, and the output from our previous tests in the Results viewer. Check all that now.
 
+::: Aside
+Test aside note.
+:::
+
 Before we do our new tests, let's clear the Results viewer so we can start from fresh. Right-click anywhere in the Results viewer, then choose **All**, then **Remove**. This should clear the Results viewer.
 
 ![](_imgs/02-01.png)
@@ -70,30 +74,19 @@ Before we do our new tests, let's clear the Results viewer so we can start from 
 
 In our data set, you will remember we measured the body fat using two separate machines, **BIA1** and **BIA2**. We did this to check the machines were giving the same value.
 
-::: {.Note custom-style="QuestionList"}
-```{=latex}
-\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
-```
+::: Questions
+
 Q1. By using two separate machines are we testing for validity or reliability?
 
 
-```{=latex}
-\end{tcolorbox}
-```
 :::
 
 Look at the BIA1 and BIA2 columns now. From visual inspection it does appear that the two numbers are similar – but how similar? In this section we are going to see how close each machine is to the other in reporting body fat percentage. We are going to examine this using a bivariate correlation (a correlation between two variables), remembering that this will only work for data with a linear relationship (this is an assumption we will make at this stage).
 
-::: {.Warning custom-style="Aside"}
-```{=latex}
-\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
-```
+::: Aside
 
-**Note**: Just because there may be strong correlation between two values, it does not mean that the two values are the same. It just says that for every unit increase in one variable there is similar unit increase in the other.  You cannot use this method alone to test for inter-machine (or inter-tester reliability). Use Intra-Class Correlations for this – see [Koo *et al*. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S1556370716000158), *A guideline of selecting and reporting intraclass correlation coefficients for reliability research* for details.
+**Note**: Just because there may be strong correlation between two values, it does not mean that the two values are the same. It just says that for every unit increase in one variable there is similar unit increase in the other.  You cannot use this method alone to test for inter-machine (or inter-tester reliability). Use Intra-Class Correlations for this – see [Koo *et al*. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S1556370716000158), "A guideline of selecting and reporting intraclass correlation coefficients for reliability research" for details.
 
-```{=latex}
-\end{tcolorbox}
-```
 :::
 
 Let's run the correlation analysis. Click on **Analyses**, then the **Regression** icon, then choose **Correlation Matrix**.
@@ -139,16 +132,10 @@ So, this correlation could be written as:
 
 Body fat recorded on BIA1 was significantly correlated with body fat from BIA2, *r*(46) = 0.990, *p* < 0 .001.
 
-::: {.Warning custom-style="Aside"}
-```{=latex}
-\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
-```
+::: {custom-style="Aside"}
 
 **Note:** pay attention to how you format your findings when typing them out like this - notice the *italics* on both *r* and *p*, and the single space either side of the less than (<), and equals (=) signs.)
 
-```{=latex}
-\end{tcolorbox}
-```
 :::
 
 **Now you try:** Using the same data set, perform a bivariate correlation between weight and height (no groupings).
@@ -213,9 +200,7 @@ Move **SeatHt** into the Dependent variable selection box, and move **FKPInseam*
 \begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
 ```
 
-**Note:** Regression in Jamovi is in two stages. Covariates just means all the variables that we are interested in, besides our dependent variable, but *not necessarily* all our covariates will become our independent variables.
-
-Once we've picked all our covariates, we then tell Jamovi which of those to take a step further and actually use as independent variables for our regression. For now, we'll just always make our covariates and independent variables the same, to keep things simple.
+**Note:** Regression in Jamovi is in two stages. Covariates just means all the variables that we are interested in, besides our dependent variable, but *not necessarily* all our covariates will become our independent variables. Once we've picked all our covariates, we then tell Jamovi which of those to take a step further and actually use as independent variables for our regression. For now, we'll just always make our covariates and independent variables the same, to keep things simple.
 
 ```{=latex}
 \end{tcolorbox}

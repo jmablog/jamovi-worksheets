@@ -12,6 +12,7 @@ templates:
             to: docx
             use-extension: docx
             reference-doc: ./../../templates/jamovi-worksheets.docx
+            lua-filter: filters/shortcodes.lua
             #toc: true
     worksheet-html:
         glob: ["*-Worksheet.md"]
@@ -22,6 +23,7 @@ templates:
             self-contained: true
             toc: true
             template: ./../../templates/jamovi-worksheets.html5
+            lua-filter: filters/shortcodes.lua
     worksheet-github:
         glob: ["*-Worksheet.md"]
         extends: ['worksheet-html']
@@ -36,6 +38,7 @@ templates:
             self-contained: true
             template: ./../../templates/jamovi-worksheets.html5
             toc: false
+            lua-filter: filters/shortcodes.lua
     worksheet-pdf:
         glob: ["*-Worksheet.md"]
         pandoc:
@@ -46,3 +49,4 @@ templates:
             pdf-engine: lualatex
             metadata-file: ./../../templates/jamovi-worksheets.yaml
             template: ./../../templates/jamovi-worksheets.tex
+            lua-filter: filters/shortcodes.lua
