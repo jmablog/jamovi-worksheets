@@ -5,14 +5,8 @@ abstract: |
 
     - Point one
 
-    ::: {.Note custom-style="QuestionList"}
-    ```{=latex}
-    \begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
-    ```
+    ::: Questions
     As you work through this worksheet, there will be **learning checks** (numbered Q1, Q2, etc.) that ask you questions about what has just been covered. These questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
-    ```{=latex}
-    \end{tcolorbox}
-    ```
     :::
 ---
 <!-- Begin Word front matter / ToC section -->
@@ -63,16 +57,10 @@ abstract: |
 TEXT HERE
 
 <!-- Formatting for yellow 'Aside' boxed note -->
-::: {.Warning custom-style="Aside"}
-```{=latex}
-\begin{tcolorbox}[breakable, colframe=Apricot!40!white, colback=Apricot!10!white, boxsep=2mm]
-```
+::: Aside
 
 BOXED CONTENT HERE
 
-```{=latex}
-\end{tcolorbox}
-```
 :::
 <!-- End formatting for Aside box -->
 
@@ -92,15 +80,9 @@ BOXED CONTENT HERE
 ## Answers to questions
 
 <!-- Formatting for grey 'Question' boxed content -->
-::: {.Note custom-style="QuestionList"}
-```{=latex}
-\begin{tcolorbox}[breakable, colframe=black!50!white, colback=black!3!white, boxsep=2mm]
-```
+::: Questions
 
 Q1. QUESTION
 
-```{=latex}
-\end{tcolorbox}
-```
 :::
 <!-- End formatting for grey 'Question' boxed content -->
