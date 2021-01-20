@@ -243,6 +243,8 @@ Use the **File** menu from before to save your work - click the three stacked wh
 
 :::
 
+\newpage
+
 # Week 2
 
 Now that we have our data setup in Jamovi, we can start investigating it with some descriptives, some basic plots, and some parametric testing.
