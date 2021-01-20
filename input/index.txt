@@ -1,0 +1,17 @@
+---
+title: 'ST4011 - Jamovi Worksheets'
+---
+
+Click each link below to access the worksheet:
+
+1. [Jamovi Basics & Descriptive Data](01-Descriptive-Data/01-Descriptive-Data.html)
+2. [Relationships](02-Relationships/02-Relationships.html)
+3. [Comparing Two Means](03-Comparing-Two-Means/03.html)
+4. [Comparing Multiple Means](04-Comparing-Multiple-Means/04.html)
+
+::: Aside
+
+You can download all the data files, as well as Word and PDF versions of these worksheets, from **Weblearn**. You can also save these online worksheets directly from your web browser by selecting **Print** then **Save to PDF** - [see this guide](https://www.howtogeek.com/235134/how-to-print-to-pdf-on-any-computer-smartphone-or-tablet/) for more details on how to do this in every operating system.
+
+:::
+

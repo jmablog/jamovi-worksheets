@@ -6,7 +6,7 @@ settings:
     match-files: all
 templates:
     worksheet-word:
-        glob: ["*-Worksheet.md"]
+        glob: ["*.md"]
         pandoc:
             from: markdown+raw_attribute+raw_tex
             to: docx
@@ -15,7 +15,7 @@ templates:
             lua-filter: filters/shortcodes.lua
             #toc: true
     worksheet-html:
-        glob: ["*-Worksheet.md"]
+        glob: ["*.md"]
         pandoc:
             from: markdown+raw_attribute+raw_tex
             to: html
@@ -25,22 +25,21 @@ templates:
             template: ./../../templates/jamovi-worksheets.html5
             lua-filter: filters/shortcodes.lua
     worksheet-github:
-        glob: ["*-Worksheet.md"]
+        glob: ["*.md"]
         extends: ['worksheet-html']
         pandoc:
             output: index.html
     index:
-        glob: ["index.md"]
+        glob: ["index.txt"]
         pandoc:
             from: markdown+raw_attribute+raw_tex
             to: html
             standalone: true
             self-contained: true
             template: ./../../templates/jamovi-worksheets.html5
-            toc: false
             lua-filter: filters/shortcodes.lua
     worksheet-pdf:
-        glob: ["*-Worksheet.md"]
+        glob: ["*.md"]
         pandoc:
             from: markdown+raw_attribute+raw_tex
             to: pdf
