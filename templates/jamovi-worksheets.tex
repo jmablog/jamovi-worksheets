@@ -442,7 +442,8 @@ $endif$
 % \usepackage{titlesec}
 % \titlelabel{\thetitle.\quad}
 % comment/uncomment the next line to insert a page break before each new H1
-% \newcommand\sectionbreak{\clearpage}
+% \let\oldsection\section
+% \renewcommand\section{\clearpage\oldsection}
 
 % changing options for table/figure captions ===================================
 % uncomment the below lines to just number figures/tables sequentially

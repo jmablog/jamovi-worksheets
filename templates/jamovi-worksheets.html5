@@ -49,7 +49,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ==============================================================================-->
 $-------------------------------------------------------------------------> lang
-<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+<html lang="en">
 <head>
 $--=============================================================================
 $--                                METADATA                                   

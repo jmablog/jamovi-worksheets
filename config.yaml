@@ -1,6 +1,6 @@
 # run with pandocomatic -i input -o docs -c config.yaml --modified-only
 settings:
-    skip: ["_*", ".*"]
+    skip: ["_*", ".*", "~$*.docx"]
     recursive: true
     follow-links: false
     match-files: all
