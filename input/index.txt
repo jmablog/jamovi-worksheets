@@ -6,8 +6,8 @@ Click each link below to access the worksheet:
 
 1. [Jamovi Basics & Descriptive Data](01-Descriptive-Data/01-Descriptive-Data.html)
 2. [Relationships](02-Relationships/02-Relationships.html)
-3. [Comparing Two Means](03-Comparing-Two-Means/03.html)
-4. [Comparing Multiple Means](04-Comparing-Multiple-Means/04.html)
+3. [Comparing Two Means](03-Comparing-Two-Means/03-Comparing-Two-Means.html)
+4. [Comparing Multiple Means](04-Comparing-Multiple-Means/04-Comparing-Multiple-Means.html)
 
 ::: Aside
 
