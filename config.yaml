@@ -24,11 +24,11 @@ templates:
             toc: true
             template: ./../../templates/jamovi-worksheets.html5
             lua-filter: filters/shortcodes.lua
-    worksheet-github:
-        glob: ["*.md"]
-        extends: ['worksheet-html']
-        pandoc:
-            output: index.html
+    # worksheet-github:
+    #     glob: ["*.md"]
+    #     extends: ['worksheet-html']
+    #     pandoc:
+    #         output: index.html
     index:
         glob: ["index.txt"]
         pandoc:
