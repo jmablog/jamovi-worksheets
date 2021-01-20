@@ -16,6 +16,10 @@ abstract: |
 
 \wordtoc
 
+# Week 1
+
+In this first week, we will mostly just be getting used to how to use Jamovi, and how to set up our data.
+
 ## Installing Jamovi & how to get further help
 
 Download Jamovi for your computer from:
@@ -232,6 +236,16 @@ Press enter and you should see the BMI column automatically fill in with our BMI
 Let's recap: we have looked at the Spreadsheet, which contains our data (cells) arranged as Variables (columns) and Cases (rows). We have looked at the Variable Setup menu to look at the metadata information about our variables and the values they contain. These are the two main components of what we would call data.
 
 The variables and the data are all saved in one Jamovi data file (.omv). Make sure you save your data file as you have made changes to both variables and cases. We will now move on to examine some of our data.
+
+::: Aside
+
+Use the **File** menu from before to save your work - click the three stacked white lines in the corner, then choose **Save** or **Save As**. You can also use the keyboard shortcuts **Ctrl + S** (Windows) or **Cmd + S** (Mac) to save.
+
+:::
+
+# Week 2
+
+Now that we have our data setup in Jamovi, we can start investigating it with some descriptives, some basic plots, and some parametric testing.
 
 ## Descriptive data
 
