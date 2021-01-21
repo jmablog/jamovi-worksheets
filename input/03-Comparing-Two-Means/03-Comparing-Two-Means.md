@@ -13,7 +13,15 @@ abstract: |
 
 \wordtoc
 
-## Setup
+## Independent groups
+
+If you have two groups that are **not** related - i.e. they are completely separate people, or independent measures - you can use the following tests to compare them:
+
+- Independent measures Student's *t*-test for parametric data
+- Independent measures Welch's *t*-test for parametric data, but uneven sample sizes or unequal variances
+- Mann-Whitney U test for non-parametric data
+
+### Setup
 
 Open up the **Body Compsosition.omv** file from previous weeks and clear your Results viewer of any previous results, so we can start fresh. Make sure you've saved the additions we did in Week 1, with PartID 53.
 
@@ -23,17 +31,9 @@ We won't be going over every little detail for tasks like this that we've done i
 
 :::
 
-## Independent groups
-
-If you have two groups that are **not** related - i.e. they are completely separate people, or independent measures - you can use the following tests to compare them:
-
-- Independent measures Student's *t*-test for parametric data
-- Independent measures Welch's *t*-test for parametric data, but uneven sample sizes or unequal variances
-- Mann-Whitney U test for non-parametric data 
-
 ### Independent measures Student's *t*-test
 
-For this first test we are going to go back to the **Weight** and Height data. We have 50 participants in our data set, and you can see from gender we have type 1 (male) and type 2 (female). We are interested in these students to see: who is heavier, male or female?
+For this first test we are going to go back to the **Weight** and **Height** data. We have 50 participants in our data set, and you can see from **Gender** we have two levels, 1 (Male) and 2 (Female). We are interested in these students to see: who is heavier, male or female?
 
 At its very simplest, examining the mean and standard deviation will give us ‘an’ answer to this question. Click **Analyses**, then **Exploration**, then **Descriptives**. Move **Weight** into variables, and split by **Gender**. Go into the **Plots** option and turn on **Box plot** too.
 
@@ -47,7 +47,7 @@ Q2. What is the standard deviation of males and females?
 
 :::
 
-It should be clear from the boxplot that the females are heavier than males, but notice that the spread of females is greater than males, so simply using the mean, or any other measure of central tendency does not give the full story.
+It should be clear from the boxplot that the females are heavier than males, but notice that the spread of females is greater than males, so simply using the mean (or any other measure of central tendency) does not give the full story.
 
 ::: Questions
 
@@ -227,7 +227,7 @@ If your two groups that **are** related - i.e. repeated measure groups - you can
 - Repeated measures *t*-test for parametric data
 - Wilcoxon signed rank test for non-parametric data
 
-### Repeated measures Student's *t*-test
+### Setup
 
 The repeated measures *t*-test allows us to compare two experimental conditions where the same participants take part in both conditions. We are going to examine some sit and reach data, so open **Sit and Reach.omv**.
 
@@ -250,6 +250,8 @@ Q24. What is the mean and standard deviation pre-sit and reach score for males a
 Q25. What is the Shapiro-Wilk Score for the sit and reach score? What does this mean?
 
 :::
+
+### Repeated measures Student's *t*-test
 
 Assuming that the data satisfies our parametric assumptions we will run a paired samples *t*-test. Click **Analyses**, then **T-Tests**, and **Paired Samples T-Test**.
 

@@ -503,7 +503,7 @@ Q19.	 Would you be happy running a parametric test on this data? And why?
 
 \newpage
 
-## Answers to questions
+# Answers to questions
 
 ::: Questions
 
