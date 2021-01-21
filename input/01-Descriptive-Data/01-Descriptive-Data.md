@@ -36,7 +36,7 @@ Jamovi has a lot of resources online to help you use it! As well as the user-gui
 
 [https://www.jamovi.org/community.html](https://www.jamovi.org/community.html)
 
-In particular, there is a YouTube playlist of useful Jamovi video guides ([click here](https://www.learnstatswithjamovi.com/)) and a full statistics textbook using Jamovi ([click here](https://www.learnstatswithjamovi.com/)) linked from the community resources page that might be useful if you need help outside of a tutorial, or want to know even more detail about stats with Jamovi.
+In particular, there is a YouTube playlist of useful Jamovi video guides ([click here](https://bit.ly/jamovi-youtube)) and a full statistics textbook using Jamovi ([click here](https://www.learnstatswithjamovi.com/)) linked from the community resources page that might be useful if you need help outside of a tutorial, or want to know even more detail about stats with Jamovi.
 
 ## Download the data files
 
