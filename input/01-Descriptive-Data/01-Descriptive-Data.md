@@ -20,7 +20,7 @@ abstract: |
 
 In this first week, we will mostly just be getting used to how to use Jamovi, and how to set up our data.
 
-## Installing Jamovi & how to get further help
+## Installing Jamovi
 
 Download Jamovi for your computer from:
 
@@ -31,6 +31,18 @@ If given the option, choose the '**Solid**' installation version.
 Jamovi is just a regular application installation for Windows and Mac, but Jamovi is also available for Linux and Chromebooks with some extra steps. For full instructions on how to install Jamovi for any system, see section 1 of the **Jamovi user-guide** here:
 
 ‌[https://www.jamovi.org/user-manual.html](https://www.jamovi.org/user-manual.html)
+
+If for some reason you cannot install Jamovi on your computer, you can use an online version of Jamovi here:
+
+[https://cloud.jamovi.org/](https://cloud.jamovi.org/)
+
+::: Aside
+
+Be aware that the online version of Jamovi is just a demo version, and may not always be reliably available. It is **strongly suggested** that you install Jamovi on your own computer if at all possible.
+
+:::
+
+## Help with Jamovi
 
 Jamovi has a lot of resources online to help you use it! As well as the user-guide linked above, you can find a number of useful further guides at the Jamovi community resources page here:
 
