@@ -204,7 +204,7 @@ Now go through and check all the variables in our data sheet are setup correctly
 - Weight: Weight (kg), Continuous, Decimal
 - Height: Height (cm), Continuous, Decimal
 - BIA1: BIA Machine 1 Body Fat (%), Continuous, Decimal
-- BIA2: BIA Machine 1 Body Fat (%), Continuous, Decimal
+- BIA2: BIA Machine 2 Body Fat (%), Continuous, Decimal
 - FitPercept: Fitness Perception, Nominal, Integer, with 5 levels
 
 Once you've checked all these variables, click on the circle icon with an Up arrow inside it in the top right of the variable setup menu to hide the menu and return to the main view.
