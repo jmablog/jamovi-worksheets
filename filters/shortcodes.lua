@@ -1,23 +1,25 @@
 -- lets spans define with empty bracketed spans link to each other
 function Span (elem)
-  if elem.content[1].text:match '^Q[%d]+$' then
-      
-      local link = "#" .. elem.content[1].text:gsub("Q", "A")
-      local newelem = pandoc.Link(elem.content[1].text, link)
-      newelem.identifier = elem.content[1].text
-      
-      return newelem
-      
-  elseif elem.content[1].text:match '^A[%d]+$' then
-      
-      local link = "#" .. elem.content[1].text:gsub("A", "Q")
-      local newelem = pandoc.Link(elem.content[1].text, link)
-      newelem.identifier = elem.content[1].text
-      
-      return newelem
-      
-  else
-      return elem
+  if FORMAT:match 'html' or FORMAT:match 'latex' then
+    if elem.content[1].text:match '^Q[%d]+$' then
+        
+        local link = "#" .. elem.content[1].text:gsub("Q", "A")
+        local newelem = pandoc.Link(elem.content[1].text, link)
+        newelem.identifier = elem.content[1].text
+        
+        return newelem
+        
+    elseif elem.content[1].text:match '^A[%d]+$' then
+        
+        local link = "#" .. elem.content[1].text:gsub("A", "Q")
+        local newelem = pandoc.Link(elem.content[1].text:gsub("A", ""), link)
+        newelem.identifier = elem.content[1].text
+        
+        return newelem
+        
+    else
+        return elem
+    end
   end
 end
 
@@ -184,5 +186,5 @@ function RawBlock (el)
 end
 
 return {
-  {RawBlock = RawBlock, Div = Div}
+  {RawBlock = RawBlock, Div = Div, Span = Span}
 }

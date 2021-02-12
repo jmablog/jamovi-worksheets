@@ -8,4 +8,5 @@ hyperrefoptions:
 - pdfwindowui
 - pdfpagemode=FullScreen
 colorlinks: true
+linkcolor: black
 toc: true
