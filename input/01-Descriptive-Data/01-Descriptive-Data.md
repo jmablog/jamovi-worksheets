@@ -10,7 +10,7 @@ abstract: |
     - Parametric Testing
 
     ::: Questions
-    As you work through this worksheet, there will be **learning checks** (numbered Q1, Q2, etc.) that ask you questions about what has just been covered. These questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct.
+    As you work through this worksheet, there will be **learning checks** (numbered Q1, Q2, etc.) that ask you questions about what has just been covered. These questions are not submitted for assessment, they are just to help you fully learn how to use Jamovi. Answers to all the questions are provided at the end of this worksheet for you to check if you were correct and you can click the question numbers to jump to that answer.
     :::
 ---
 
@@ -85,16 +85,16 @@ You should see data now in the Spreadsheet view. If you want to see more of the 
 In Jamovi, each **column** represents a **variable**, similar to Excel, and each **row** represents a **case**. In Excel, we had to create a dummy Participant ID column as our case identifier. This is the same in Jamovi, which has been named 'PartID' in this file.
 
 ::: Questions
-Q1. How many columns of data are there?
+[Q1]{}. How many columns of data are there?
 
 
-Q2. How many rows of data are there?
+[Q2]{}. How many rows of data are there?
 
 
-Q3. Why bother with a Participant ID when there is a record number?
+[Q3]{}. Why bother with a Participant ID when there is a record number?
 
 
-Q4. Why do we need a Participant ID at all? Why not just use participant name?
+[Q4]{}. Why do we need a Participant ID at all? Why not just use the participant's name?
 
 
 :::
@@ -140,7 +140,7 @@ Underneath the description are some more options. Click on the dropdown menu nex
 ![](_imgs/01-05.png)
 
 ::: Questions
-Q5. How many measure types of data are available in Jamovi? Can you guess how these compare to the NOIR data types covered in lectures?
+[Q5]{}. How many measure types of data are available in Jamovi? Can you guess how these compare to the NOIR data types covered in lectures?
 
 
 :::
@@ -156,7 +156,7 @@ Nominal and Ordinal are exactly the same as covered in the lecture on data types
 Jamovi also has one extra data type, called 'ID'. This is just used by Jamovi to identify a Participant ID column - it's exactly the same as a Nominal column, but lets Jamovi know it doesn't need to worry about labelling levels for it, and to just use whatever is typed into the cells. Don't worry about the difference too much - just know that you only need to set your PartID column to 'ID', and can then forget about it!
 
 ::: Questions
-Q6. Why would PartID be of the ID or Nominal type even though it appears to be an ordered list of numbers?
+[Q6]{}. Why would PartID be of the ID or Nominal type even though it appears to be an ordered list of numbers?
 
 
 :::
@@ -280,10 +280,10 @@ This is a simple way of looking at all the weights of our participants (dependen
 Notice our Results table on the right has now automatically updated to show the Descriptives we have asked for! You should be able to see the mean, median, standard deviation, minimum, and maximum for both Male and Female groups. All of these require separate equations in Excel, so you can see Jamovi is a *lot* quicker to summarise data.
 
 ::: Questions
-Q7. In your descriptive data who, on average is heavier, male or female?
+[Q7]{}. In your descriptive data who, on average is heavier, male or female?
 
 
-Q8. How many males and females are there? And how big is our total sample size?
+[Q8]{}. How many males and females are there? And how big is our total sample size?
 
 
 :::
@@ -299,7 +299,7 @@ Now select **BIA1** and **BIA2** and move them into the Variables box. This will
 Feel free to click around any other Statistics options you might be interested in - you can add and remove as many as you like at any time in Jamovi, and the Results viewer will auto-update to show what you have changed.
 
 ::: Questions
-Q9. From the descriptive data for the two machines, would you say the machines show the ‘same’ results?
+[Q9]{}. From the descriptive data for the two machines, would you say the machines show the ‘same’ results?
 
 
 :::
@@ -315,13 +315,13 @@ Click the **Frequency tables** checkbox underneath our variables selection to ad
 Here you are presented with frequency as a count, as an overall percentage, and as a cumulative percentage. Top table also tells us about the total number of values and how many are missing values - that is, any cases we have that do not have a valid Course ID.
 
 ::: Questions
-Q10. How many students actually provided a course id?
+[Q10]{}. How many students actually provided a course id?
 
 
-Q11. Which course has the greatest percentage of students?
+[Q11]{}. Which course has the greatest percentage of students?
 
 
-Q12. What percentage of students takes Sport and Dance Therapy?
+[Q12]{}. What percentage of students takes Sport and Dance Therapy?
 
 
 :::
@@ -352,7 +352,7 @@ This is a histogram for our entire data set, but we can split this by **Gender**
 You can split your data using any Nominal or Ordinal variable - try moving other variables in and out of the Split By box to see how the histogram changes.
 
 ::: Questions
-Q13. Based on the histograms, which Gender has a greater variability of weight? Why?
+[Q13]{}. Based on the histograms, which Gender has a greater variability of weight? Why?
 
 
 :::
@@ -374,7 +374,7 @@ Remember in a boxplot:
 Any outliers are shown with circles beyond the whiskers of the box plot. There are no recognised outliers in our Height data.
 
 ::: Questions
-Q14. On the boxplot, what is the approximate value for median male height and median female height?
+[Q14]{}. On the boxplot, what is the approximate value for median male height and median female height?
 
 
 :::
@@ -413,10 +413,10 @@ Here we are testing whether the distribution of Height (by gender) is normally d
 **Now you try:** Perform a test of normality for **Weight** by **Gender** using the Body Composition.omv data set.
 
 ::: Questions
-Q15. What test would you run?
+[Q15]{}. What test would you run?
 
 
-Q16. What p-value for the test of normality do you get for the Weight data of the Females group? What does this p-value mean?
+[Q16]{}. What p-value for the test of normality do you get for the Weight data of the Females group? What does this p-value mean?
 
 
 :::
@@ -435,7 +435,7 @@ The first way we can examine this data is to look at the *absolute* values for S
 - Female kurtosis = -0.481
 
 ::: Questions
-Q17. Based on the raw Skewness and Kurtosis values, describe the shape of your male data distribution.
+[Q17]{}. Based on the raw Skewness and Kurtosis values, describe the shape of your male data distribution.
 
 
 :::
@@ -505,10 +505,10 @@ We won't worry about the T-Test results for now - just look at the table titled 
 **Now you try:** Repeat the test of Homogeneity of Variance for Weight by Gender.
 
 ::: Questions
-Q18.	 What is the Levene statistic and *p* value, and what does this mean?
+[Q18]{}.	 What is the Levene statistic and *p* value, and what does this mean?
 
 
-Q19.	 Would you be happy running a parametric test on this data? And why?
+[Q19]{}.	 Would you be happy running a parametric test on this data? And why?
 
 
 :::
@@ -519,42 +519,42 @@ Q19.	 Would you be happy running a parametric test on this data? And why?
 
 ::: Questions
 
-Q1. In this data file there are 9 columns of data: participant id, age, gender, course, weight, height, BIA1, BIA2 and FitPercept.
+[A1]{}. In this data file there are 9 columns of data: participant id, age, gender, course, weight, height, BIA1, BIA2 and FitPercept.
 
-Q2. There are 50 rows of data, or 50 ‘cases’. Do not use PartId to show the count of records.
+[A2]{}. There are 50 rows of data, or 50 ‘cases’. Do not use PartId to show the count of records.
 
-Q3. Even though there is a row number, this does not identify a particular case of data, only the order of the currently displayed rows (or cases). The PartId allows the user to easily identify a particular case.  If you were to sort the data, or filter the data, the row numbers could change, but PartId would remain consistent.
+[A3]{}. Even though there is a row number, this does not identify a particular case of data, only the order of the currently displayed rows (or cases). The PartId allows the user to easily identify a particular case.  If you were to sort the data, or filter the data, the row numbers could change, but PartId would remain consistent.
 
-Q4. Firstly the participant id will be unique, but also it allows the data to be anonymised.
+[A4]{}. Firstly the participant id will be unique, but also it allows the data to be anonymised.
 
-Q5. Jamovi has four main data types: Nominal, Ordinal, Continuous, and ID. Nominal and Ordinal are the same as in NOIR, while Continuous is a combination of Interval and Ratio data types. ID is a unique data type to Jamovi, using for participant ID variables only, that is similar to a Nominal data type but without any category levels or labels.
+[A5]{}. Jamovi has four main data types: Nominal, Ordinal, Continuous, and ID. Nominal and Ordinal are the same as in NOIR, while Continuous is a combination of Interval and Ratio data types. ID is a unique data type to Jamovi, using for participant ID variables only, that is similar to a Nominal data type but without any category levels or labels.
 
-Q6. The field is purely a ‘name’ for each record, you cannot infer that it takes any order, or that one case should come before or after any other.
+[A6]{}. The field is purely a ‘name’ for each record, you cannot infer that it takes any order, or that one case should come before or after any other.
 
-Q7. The female is, on average, heavier. Female average mass = 76.855 kg, male average mass = 64.153 kg.
+[A7]{}. The female is, on average, heavier. Female average mass = 76.855 kg, male average mass = 64.153 kg.
 
-Q8. There are 17 males and 33 females in the sample.
+[A8]{}. There are 17 males and 33 females in the sample.
 
-Q9. It is difficult to say definitively whether the machines show the ‘same’.  The descriptive information would suggest that ‘on average’ the values are the same, however, individual machines within the sample could display very different results, e.g. machine 1 gives 15% and 25% for two participants, but then machine 2 gives 25% and 15% for the same two. ‘On average’ both machines would show 20%. Just because numbers ‘look’ similar, it does not mean that statistically they are the same.
+[A9]{}. It is difficult to say definitively whether the machines show the ‘same’.  The descriptive information would suggest that ‘on average’ the values are the same, however, individual machines within the sample could display very different results, e.g. machine 1 gives 15% and 25% for two participants, but then machine 2 gives 25% and 15% for the same two. ‘On average’ both machines would show 20%. Just because numbers ‘look’ similar, it does not mean that statistically they are the same.
 
-Q10. 50 students provided a course ID.
+[A10]{}. 50 students provided a course ID.
 
-Q11. Sport Therapy, with 54%.
+[A11]{}. Sport Therapy, with 54%.
 
-Q12. 16% of students take Sport and Dance Therapy.
+[A12]{}. 16% of students take Sport and Dance Therapy.
 
-Q13. From the graph, females appear to be more variable, extending to the left and right of the males in the graph. The standard deviation value is also greater for females (18.08 kg) compared to males (13.84 kg).
+[A13]{}. From the graph, females appear to be more variable, extending to the left and right of the males in the graph. The standard deviation value is also greater for females (18.08 kg) compared to males (13.84 kg).
 
-Q14. From the boxplot, the median value is the thick black line in the middle of each of the boxes. The approximate value for the median male height is 166 cm and for females, it is 175 cm.
+[A14]{}. From the boxplot, the median value is the thick black line in the middle of each of the boxes. The approximate value for the median male height is 166 cm and for females, it is 175 cm.
 
-Q15. For a normality test, you would run the Shapiro-Wilk test.
+[A15]{}. For a normality test, you would run the Shapiro-Wilk test.
 
-Q16. For females, Shapiro-Wilk *p* = 0.291. This is similar to the male *p*-value. A non-significant value suggests that the sample distribution for female weight is not significantly different to a normal distribution, hence one of the assumptions required for performing parametric testing has been satisfied.
+[A16]{}. For females, Shapiro-Wilk *p* = 0.291. This is similar to the male *p*-value. A non-significant value suggests that the sample distribution for female weight is not significantly different to a normal distribution, hence one of the assumptions required for performing parametric testing has been satisfied.
 
-Q17. The positive skewness value (1.028) suggests that the graph has a slightly longer right hand tail, and the positive kurtosis value (0.959) suggests the curve is slightly more thin than a normal distribution (also known as leptokurtic).
+[A17]{}. The positive skewness value (1.028) suggests that the graph has a slightly longer right hand tail, and the positive kurtosis value (0.959) suggests the curve is slightly more thin than a normal distribution (also known as leptokurtic).
 
-Q18. The Levene test statistic, F = 0.642, p = 0.427 (based on the mean). This means that the variances are not significantly different, so we can assume homogeneity of variance.
+[A18]{}. The Levene test statistic, F = 0.642, p = 0.427 (based on the mean). This means that the variances are not significantly different, so we can assume homogeneity of variance.
 
-Q19. Yes, we have satisfied the four conditions, 1. It is high level data, 2. It was randomly allocated/selected, 3. It is normally distributed, and 4. It has homogeneity of variance.
+[A19]{}. Yes, we have satisfied the four conditions, 1. It is high level data, 2. It was randomly allocated/selected, 3. It is normally distributed, and 4. It has homogeneity of variance.
 
 :::

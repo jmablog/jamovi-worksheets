@@ -53,9 +53,9 @@ You should already know how to find some basic information on this data, so run 
 
 ::: Questions
 
-Q1. What are the Shapiro-Wilk results for the 4 different courses? What does this mean for the assumption of normality?
+[Q1]{}. What are the Shapiro-Wilk results for the 4 different courses? What does this mean for the assumption of normality?
 
-Q2. What is the mean and standard deviation weight for each of the courses?
+[Q2]{}. What is the mean and standard deviation weight for each of the courses?
 
 :::
 
@@ -85,7 +85,7 @@ You may have heard of the Bonferroni adjustment, or a few other different types 
 
 ::: Questions
 
-Q3. Why do we need to control the family-wise error rate?
+[Q3]{}. Why do we need to control the family-wise error rate?
 
 :::
 
@@ -115,9 +115,9 @@ You can see the mean difference here is a negative number (-18.5 kg). If you are
 
 ::: Questions
 
-Q4. Looking at the post-hoc table, are there any other pairs of courses that are significantly different? 
+[Q4]{}. Looking at the post-hoc table, are there any other pairs of courses that are significantly different? 
 
-Q5. Even though Sport and Dance Therapy appears to be lighter than Sports Therapy it has not shown to be significantly different to Sport Psychology. Why do you think this might be?
+[Q5]{}. Even though Sport and Dance Therapy appears to be lighter than Sports Therapy it has not shown to be significantly different to Sport Psychology. Why do you think this might be?
 
 :::
 
@@ -131,25 +131,25 @@ Where previously we included against the *t*-statistic the degrees of freedom, w
 
 ::: Questions
 
-Q6. What are the null and experimental hypotheses for this test?
+[Q6]{}. What are the null and experimental hypotheses for this test?
 
-Q7. What are the 4 parametric tests you need to satisfy to run this test?
+[Q7]{}. What are the 4 parametric tests you need to satisfy to run this test?
 
-Q8. What are the results of your Shapiro-Wilk test for the 4 sports, and what does this result mean?
+[Q8]{}. What are the results of your Shapiro-Wilk test for the 4 sports, and what does this result mean?
 
-Q9. How many students play Hockey?
+[Q9]{}. How many students play Hockey?
 
-Q10. What is the Mean and Standard deviation weight of the Triathlon Group to 2 dp?
+[Q10]{}. What is the Mean and Standard deviation weight of the Triathlon Group to 2 dp?
 
-Q11. What is the result of Levene’s test (based on mean) and what does this result mean?
+[Q11]{}. What is the result of Levene’s test (based on mean) and what does this result mean?
 
-Q12. Have you satisfied the 4 parameteric tests?
+[Q12]{}. Have you satisfied the 4 parameteric tests?
 
-Q13. Run the ANOVA. What is your F statistic and *p* value, and what does the *p*-value show?
+[Q13]{}. Run the ANOVA. What is your F statistic and *p* value, and what does the *p*-value show?
 
-Q14. Using the Post-hoc tests, are there any pairs of data that are significantly different to each other? If There are what are their *p*-values.
+[Q14]{}. Using the Post-hoc tests, are there any pairs of data that are significantly different to each other? If There are what are their *p*-values.
 
-Q15. How would you report the result you have found?
+[Q15]{}. How would you report the result you have found?
 
 :::
 
@@ -166,11 +166,11 @@ Before we run the Kruskal-Wallis test, we need to be sure that the parametric as
 
 ::: Questions
 
-Q16. What are the 4 assumptions needed for parametric data?
+[Q16]{}. What are the 4 assumptions needed for parametric data?
 
-Q17. Do any of the groups give a significant result against Shapiro-Wilk? If so, what does that mean?
+[Q17]{}. Do any of the groups give a significant result against Shapiro-Wilk? If so, what does that mean?
 
-Q18. What do the results of the Test of Homogeneity of Variances tell you?
+[Q18]{}. What do the results of the Test of Homogeneity of Variances tell you?
 
 :::
 
@@ -190,7 +190,7 @@ Let's run the Kruskal-Wallis. Click **Analyses**, **ANOVA**, then **One-Way ANOV
 
 ::: Questions
 
-Q19. Based on your previous knowledge, what does the Kruskal-Wallis table in the Results viewer now tell you?
+[Q19]{}. Based on your previous knowledge, what does the Kruskal-Wallis table in the Results viewer now tell you?
 
 :::
 
@@ -224,9 +224,9 @@ Out of interest, you really need to know how to handle your decimal places if yo
 
 ::: Questions
 
-Q20. What does double blind mean?
+[Q20]{}. What does double blind mean?
 
-Q21. Why do I need a placebo trial?
+[Q21]{}. Why do I need a placebo trial?
 
 :::
 
@@ -248,7 +248,7 @@ Then, under **Assumptions**, tick **Sphericity tests** and make sure all three *
 
 ::: Aside
 
-Notice that we could still pick Tukey here if we wanted - Jamovi is build on the [R programming language](https://www.r-project.org/) for statistical analysis, so depending on what R function is used under-the-hood, different options become available to us. Jamovi is still being developed so eventually all the tests might come to all the analyses, but for now, we still have everything we need. Your exact choice of post-hoc test is ultimately up to you, as long as you can justify why you chose it! If you're curious, turn **both** Bonferroni and Tukey on, and compare their results in the table.
+Notice that we could still pick Tukey here if we wanted - Jamovi is built on the [R programming language](https://www.r-project.org/) for statistical analysis, so depending on what R function is used under-the-hood, different options become available to us. Jamovi is still being developed so eventually all the tests might come to all the analyses, but for now, we still have everything we need. Your exact choice of post-hoc test is ultimately up to you, as long as you can justify why you chose it! If you're curious, turn **both** Bonferroni and Tukey on, and compare their results in the table.
 
 :::
 
@@ -340,46 +340,46 @@ The perceived fitness level of the students changed significantly over the 3 yea
 
 ::: Questions
 
-Q1. *p* for each course is: Sports Therapy = 0.629, Sport and Dance Therapy = 0.642, Sport and Exercise Science = 0.701, Sport Psychology, Coaching and Physical Exercise = 0.875. None of the results are significant, i.e. none of the distributions are significantly different to a normal distribution, so we can assume that the data is normally distributed.
+[A1]{}. *p* for each course is: Sports Therapy = 0.629, Sport and Dance Therapy = 0.642, Sport and Exercise Science = 0.701, Sport Psychology, Coaching and Physical Exercise = 0.875. None of the results are significant, i.e. none of the distributions are significantly different to a normal distribution, so we can assume that the data is normally distributed.
 
-Q2. Sports Therapy = 70.24 ± 18.99 kg, Sport and Dance Therapy = 67.46 ± 18.13 kg, Sport and Exercise Science = 71.40 ± 15.46 kg, Sport Psychology, Coaching and Physical Exercise = 88.75 ± 12.80 kg.
+[A2]{}. Sports Therapy = 70.24 ± 18.99 kg, Sport and Dance Therapy = 67.46 ± 18.13 kg, Sport and Exercise Science = 71.40 ± 15.46 kg, Sport Psychology, Coaching and Physical Exercise = 88.75 ± 12.80 kg.
 
-Q3. Family-wise error = Type 1 error, where we are rejecting the null hypothesis when we should not, i.e. we have found a significant result purely by random chance when there is not actually a real difference. The more tests we run, the more this chance of finding a significant result randomly increases, so we need to control for it.
+[A3]{}. Family-wise error = Type 1 error, where we are rejecting the null hypothesis when we should not, i.e. we have found a significant result purely by random chance when there is not actually a real difference. The more tests we run, the more this chance of finding a significant result randomly increases, so we need to control for it.
 
-Q4. No, all other comparisons result in a non-significant *p* value.
+[A4]{}. No, all other comparisons result in a non-significant *p* value.
 
-Q5. Some extra effort to examine this, but this is what would push you into the ‘way above expectations’ in your dissertation. Firstly lets’ look at the group means in the Descriptives table. It is clear that SDT < ST and SDT < SP, however, the group size is really important here. SDT has a much smaller group size, so when considering the population mean (rather than the sample mean) we are much less confident about what the population mean is. If you click the **Descriptives plots** option in the ANOVA menu, you can see that the 95% CI for the means of each group overlap massively, showing we are less confident about our mean weight. Compare the 95% CI’s ST for the whole 95% is less than the 95% CI for SP, whereas the 95% CI for SDT overlaps the SP CI. Clearly then the two sets of data are not *completely* different, there is a chance that the mean of the two groups is the same (at the 5% level). This is one of the main reasons you should not just compare means!
+[A5]{}. Some extra effort to examine this, but this is what would push you into the ‘way above expectations’ in your dissertation. Firstly lets’ look at the group means in the Descriptives table. It is clear that SDT < ST and SDT < SP, however, the group size is really important here. SDT has a much smaller group size, so when considering the population mean (rather than the sample mean) we are much less confident about what the population mean is. If you click the **Descriptives plots** option in the ANOVA menu, you can see that the 95% CI for the means of each group overlap massively, showing we are less confident about our mean weight. Compare the 95% CI’s ST for the whole 95% is less than the 95% CI for SP, whereas the 95% CI for SDT overlaps the SP CI. Clearly then the two sets of data are not *completely* different, there is a chance that the mean of the two groups is the same (at the 5% level). This is one of the main reasons you should not just compare means!
 
-Q6. H~0~: There is no difference between the weight of the student based on the sport they take part in. H~1~: There is a difference in the weight of the students based on the sport they take part in.
+[A6]{}. H~0~: There is no difference between the weight of the student based on the sport they take part in. H~1~: There is a difference in the weight of the students based on the sport they take part in.
 
-Q7. Normality, homogeneity of variance, high level data, independence of samples.
+[A7]{}. Normality, homogeneity of variance, high level data, independence of samples.
 
-Q8. Shapiro Wilk tells us whether the data is significantly different to normal distribution, as this is independent samples, we run it on each group: Football = 0.093, Rugby = 0.926, Hockey = 0.803, Triathlon = 0.999. None are < 0.05, so none are significantly different to normal, we accept the test of normality for parametric data.
+[A8]{}. Shapiro Wilk tells us whether the data is significantly different to normal distribution, as this is independent samples, we run it on each group: Football = 0.093, Rugby = 0.926, Hockey = 0.803, Triathlon = 0.999. None are < 0.05, so none are significantly different to normal, we accept the test of normality for parametric data.
 
-Q9. 15 students play hockey
+[A9]{}. 15 students play hockey
 
-Q10. 65.02 ± 17.17 kg
+[A10]{}. 65.02 ± 17.17 kg
 
-Q11. Levene’s test statistic = 0.015, *p* = 0.997, i.e. the variances are not significantly different.
+[A11]{}. Levene’s test statistic = 0.015, *p* = 0.997, i.e. the variances are not significantly different.
 
-Q12. Yes! High level data (weight = ratio), all data samples are independent, each of the 4 groups are normally distributed, and finally equality of variance has been shown.
+[A12]{}. Yes! High level data (weight = ratio), all data samples are independent, each of the 4 groups are normally distributed, and finally equality of variance has been shown.
 
-Q13. F = 3.148, *p* = 0.034. *p* < 0.05 shows that at least one of the means of the groups is significantly different to one of the others.
+[A13]{}. F = 3.148, *p* = 0.034. *p* < 0.05 shows that at least one of the means of the groups is significantly different to one of the others.
 
-Q14. Only one significant pairing. Triathlon vs Football, where triathlon is, on average, 23.6 kg lighter than the footballers, *p* = 0.025.
+[A14]{}. Only one significant pairing. Triathlon vs Football, where triathlon is, on average, 23.6 kg lighter than the footballers, *p* = 0.025.
 
-Q15. There was a significant difference in the weights of the students based on the sport they took part in, F(3, 45) = 3.148, *p* = 0.034. Post-hoc comparisons using the Tukey HSD test indicated that students who took part in football were significantly heavier (M = 88.58 kg, SD = 17.50 kg) than those who took part in triathlon (M = 65.01 kg, SD = 17.17 kg) *p* = 0.025, with no further significant pairwise comparisons.
+[A15]{}. There was a significant difference in the weights of the students based on the sport they took part in, F(3, 45) = 3.148, *p* = 0.034. Post-hoc comparisons using the Tukey HSD test indicated that students who took part in football were significantly heavier (M = 88.58 kg, SD = 17.50 kg) than those who took part in triathlon (M = 65.01 kg, SD = 17.17 kg) *p* = 0.025, with no further significant pairwise comparisons.
 
-Q16. High level data, independent measures, normality of *each group*, and homogeneity of variance.
+[A16]{}. High level data, independent measures, normality of *each group*, and homogeneity of variance.
 
-Q17. Yes, and Triathlon = 0.006, and Football = 0.016, this means that 2 of the groups fail the condition of normality.
+[A17]{}. Yes, and Triathlon = 0.006, and Football = 0.016, this means that 2 of the groups fail the condition of normality.
 
-Q18. Looking at the Levene's test results, *p* = 0.049. This tells us that the variances are not equal between the groups. If the data were normally distributed, we could make use of the Welch correction, but as we also have violation of the assumption of normality we need to find another test that doesn’t rely on these assumptions.
+[A18]{}. Looking at the Levene's test results, *p* = 0.049. This tells us that the variances are not equal between the groups. If the data were normally distributed, we could make use of the Welch correction, but as we also have violation of the assumption of normality we need to find another test that doesn’t rely on these assumptions.
 
-Q19. *p* < 0.001, so it says that there is very strong evidence against the null hypothesis that the mean VO2max of the 4 groups of students (based on participation sport) is equal, i.e. there is strong evidence that the V̇O2max of student depends on the sport they take part in.
+[A19]{}. *p* < 0.001, so it says that there is very strong evidence against the null hypothesis that the mean VO2max of the 4 groups of students (based on participation sport) is equal, i.e. there is strong evidence that the V̇O2max of student depends on the sport they take part in.
 
-Q20. This means that neither I nor the participants knew whether they were taking caffeine or the placebo, another researcher kept the list secret. See: [Randomized double blind placebo control studies, the “Gold Standard” in intervention based studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505292)
+[A20]{}. This means that neither I nor the participants knew whether they were taking caffeine or the placebo, another researcher kept the list secret. See: [Randomized double blind placebo control studies, the “Gold Standard” in intervention based studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505292)
 
-Q21. The placebo is there to see if any improvement in outcome is due to the drug or simply due to taking part in the study.
+[A21]{}. The placebo is there to see if any improvement in outcome is due to the drug or simply due to taking part in the study.
 
 :::

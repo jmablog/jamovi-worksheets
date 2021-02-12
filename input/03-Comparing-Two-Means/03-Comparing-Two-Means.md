@@ -41,9 +41,9 @@ At its very simplest, examining the mean and standard deviation will give us ‘
 
 ::: Questions
 
-Q1. What is the mean weight of males and females?
+[Q1]{}. What is the mean weight of males and females?
 
-Q2. What is the standard deviation of males and females?
+[Q2]{}. What is the standard deviation of males and females?
 
 :::
 
@@ -51,9 +51,9 @@ It should be clear from the boxplot that the females are heavier than males, but
 
 ::: Questions
 
-Q3. Before we can run a parametric test, what are the 4 conditions we must satisfy?
+[Q3]{}. Before we can run a parametric test, what are the 4 conditions we must satisfy?
 
-Q4. Run a test for normality while in the Descriptives menu - what values do you get, and does this satisfy the appropriate parametric test?
+[Q4]{}. Run a test for normality while in the Descriptives menu - what values do you get, and does this satisfy the appropriate parametric test?
 
 :::
 
@@ -87,7 +87,7 @@ Under the **Assumptions** heading, we can also see our **Levene's** test results
 
 ::: Questions
 
-Q5. Does our data meet the assumption of homogeneity of variance?
+[Q5]{}. Does our data meet the assumption of homogeneity of variance?
 
 :::
 
@@ -124,21 +124,21 @@ Finally, we can look at the effect size. We can calculate Pearson’s correlatio
 
 ::: Questions
 
-Q6. What is the null and experimental hypothesis for this test?
+[Q6]{}. What is the null and experimental hypothesis for this test?
 
-Q7. Is this data parametric?
+[Q7]{}. Is this data parametric?
 
-Q8. Which test should you run and why?
+[Q8]{}. Which test should you run and why?
 
-Q9. What is it about the layout of the data that suggests this test?
+[Q9]{}. What is it about the layout of the data that suggests this test?
 
-Q10. When you run the t-test, what is the result of Levene’s test for Equality of Variance and what does this mean?
+[Q10]{}. When you run the t-test, what is the result of Levene’s test for Equality of Variance and what does this mean?
 
-Q11. What is the p value for the Independent Measures T-test and again what does this mean?
+[Q11]{}. What is the p value for the Independent Measures T-test and again what does this mean?
 
-Q11. What is the effect size of this result?
+[Q12]{}. What is the effect size of this result?
 
-Q12. How would you report these results in your essay / coursework / dissertation?
+[Q13]{}. How would you report these results in your essay / coursework / dissertation?
 
 :::
 
@@ -168,7 +168,7 @@ Let's do the comparison test. Go back to the **Independent Samples T-Test** menu
 
 ::: Questions
 
-Q14. We already made the decision to run a non-parametric test on this data for this worksheet, but if we were analysing this data for real, what would lead us to treat this data as non-parametric from our assumption checks?
+[Q14]{}. We already made the decision to run a non-parametric test on this data for this worksheet, but if we were analysing this data for real, what would lead us to treat this data as non-parametric from our assumption checks?
 
 :::
 
@@ -204,19 +204,19 @@ Now run the non-parametric Mann-Whitney U for self-perception of fitness between
 
 ::: Questions
 
-Q15. What are the null and experimental hypotheses for this test?
+[Q15]{}. What are the null and experimental hypotheses for this test?
 
-Q16. What is the name of the test you are running?
+[Q16]{}. What is the name of the test you are running?
 
-Q17. What is the median perception of fitness for therapists and non-therapists?
+[Q17]{}. What is the median perception of fitness for therapists and non-therapists?
 
-Q18. What is the mean perception of fitness for therapists and non-therapists?
+[Q18]{}. What is the mean perception of fitness for therapists and non-therapists?
 
-Q19. Running the Mann-Whitney U test, what is the *p*-value and what does this mean?
+[Q19]{}. Running the Mann-Whitney U test, what is the *p*-value and what does this mean?
 
-Q20. What is the effect size?
+[Q20]{}. What is the effect size?
 
-Q21. How would you report these results in your essay / coursework / dissertation?
+[Q21]{}. How would you report these results in your essay / coursework / dissertation?
 
 :::
 
@@ -241,13 +241,11 @@ As this is a repeated measures test, when testing our parametric assumptions, we
 
 ::: Questions
 
-Q22. What type of data is gender?
+[Q22]{}. What type of data is gender?
 
-Q23. What do the numbers 1 and 2 represent?
+[Q23]{}. What do the numbers 1 and 2 represent?
 
-Q24. What is the mean and standard deviation pre-sit and reach score for males and females, and based on your sports science knowledge was this expected?
-
-Q25. What is the Shapiro-Wilk Score for the sit and reach score? What does this mean?
+[Q24]{}. What is the Shapiro-Wilk Score for the sit and reach score? What does this mean?
 
 :::
 
@@ -307,23 +305,23 @@ Now run the paired-samples *t*-test again.
 
 ::: Questions
 
-Q27. What is the null and experimental hypothesis for this test?
+[Q25]{}. What is the null and experimental hypothesis for this test?
 
-Q28. Is the data parametric? (Remember for the repeated measures *t*-test, we consider normality of the difference between pre and post, and level of data.)
+[Q26]{}. Is the data parametric? (Remember for the repeated measures *t*-test, we consider normality of the difference between pre and post, and level of data.)
 
-Q29. What is the mean and standard deviation sit and reach score in the pre and post condition for males?
+[Q27]{}. What is the mean and standard deviation sit and reach score in the pre and post condition for males?
 
-Q30. What is the 95% confidence level for the mean difference between the pre and post reach for males?
+[Q28]{}. What is the 95% confidence level for the mean difference between the pre and post reach for males?
 
-Q31. What is the *t*-value?
+[Q29]{}. What is the *t*-value?
 
-Q32. What is the *p*-value?
+[Q30]{}. What is the *p*-value?
 
-Q33. What is your conclusion about the null and experimental hypothesis?
+[Q31]{}. What is your conclusion about the null and experimental hypothesis?
 
-Q34. What is the effect size?
+[Q32]{}. What is the effect size?
 
-Q35. How would you document this result?
+[Q33]{}. How would you document this result?
 
 :::
 
@@ -365,15 +363,15 @@ Even though the female data is normally distributed, we can still run a non-para
 
 ::: Questions
 
-Q36. What is the median score for both pre and post overall flexibility?
+[Q34]{}. What is the median score for both pre and post overall flexibility?
 
-Q37. What is the *p*-value for the Wilcoxon Signed Rank Test and what does this mean?
+[Q35]{}. What is the *p*-value for the Wilcoxon Signed Rank Test and what does this mean?
 
-Q38. What is the *W* value for this test?
+[Q36]{}. What is the *W* value for this test?
 
-Q39. What is the effect size?
+[Q37]{}. What is the effect size?
 
-Q40. How would you write up this result?
+[Q38]{}. How would you write up this result?
 
 :::
 
@@ -383,86 +381,82 @@ Q40. How would you write up this result?
 
 ::: Questions
 
-Q1. The mean weight of males and females is 64.15 and 77.86 kg respectively.
+[A1]{}. The mean weight of males and females is 64.15 and 77.86 kg respectively.
 
-Q2. The standard deviation of the weight of the male and female groups are 13.84 and 18.08 kg.
+[A2]{}. The standard deviation of the weight of the male and female groups are 13.84 and 18.08 kg.
 
-Q3. The four tests we must satisfy before running a parametric test are, Normal distribution, High level data, Random selection / allocation of participants (or independence of samples), Homogeneity of variance.
+[A3]{}. The four tests we must satisfy before running a parametric test are, Normal distribution, High level data, Random selection / allocation of participants (or independence of samples), Homogeneity of variance.
 
-Q4. From the Shapiro-Wilk test, Male p = 0.382, Female p = 0.291. Both are not significant, so there is little evidence to suggest that the distribution deviates from normal.
+[A4]{}. From the Shapiro-Wilk test, Male p = 0.382, Female p = 0.291. Both are not significant, so there is little evidence to suggest that the distribution deviates from normal.
 
-Q5. Yes - the Levene's test shows *p* = 0.427. This is greater than 0.05, our criteria for significance, showing that these two groups do **not** have significantly different variances.
+[A5]{}. Yes - the Levene's test shows *p* = 0.427. This is greater than 0.05, our criteria for significance, showing that these two groups do **not** have significantly different variances.
 
-Q6. The null hypothesis is written as H~0~: µ~A~ = µ~B~, and the experimental hypothesis would be H~0~: µ~A~ ≠ µ~B~.
+[A6]{}. The null hypothesis is written as H~0~: µ~A~ = µ~B~, and the experimental hypothesis would be H~0~: µ~A~ ≠ µ~B~.
 
 Where µ~A~ is the mean height of the population of group A, and µ~B~ is the mean height of the population of group B. The null hypothesis says that there is no significant difference between the mean heights of group A and group B. The experimental hypothesis says that there is a significant difference between the mean heights of group A and group B. Remember that this is for the **population**, not just the samples you are looking at.
 
-Q7. Yes the data is parametric. It satisfies the four conditions, High level data, Independence of measures, Yes to equality of variance (Levene *F* = 0.178, *p* = 0.675), Shapiro-Wilk test of normality (Male *p* = 0.142, Female *p* = 0.522).
+[A7]{}. Yes the data is parametric. It satisfies the four conditions, High level data, Independence of measures, Yes to equality of variance (Levene *F* = 0.178, *p* = 0.675), Shapiro-Wilk test of normality (Male *p* = 0.142, Female *p* = 0.522).
 
-Q8. As the data is parametric and we want to find the difference between two different groups, we should run an Independent Measures *t*-test.
+[A8]{}. As the data is parametric and we want to find the difference between two different groups, we should run an Independent Measures *t*-test.
 
-Q9. In the Jamovi data file, one set of data is below the other, so every height belongs to a different participant. If each participant had 2 pieces of data to compare, e.g. pre and post, then we would run a repeated measures *t*-test.
+[A9]{}. In the Jamovi data file, one set of data is below the other, so every height belongs to a different participant. If each participant had 2 pieces of data to compare, e.g. pre and post, then we would run a repeated measures *t*-test.
 
-Q10. When running the t-test, Levene’s test for Equality of Variance *p* = 0.675. This shows us that the variance from both groups are not significantly different from each other.
+[A10]{}. When running the t-test, Levene’s test for Equality of Variance *p* = 0.675. This shows us that the variance from both groups are not significantly different from each other.
 
-Q11. *p* = 0.002. This means there is strong evidence against the null hypothesis, i.e. there is strong evidence to suggest that the heights of the two groups are different. When examining the means, it is clear to see that the females are, on average, taller than the males.
+[A11]{}. *p* = 0.002. This means there is strong evidence against the null hypothesis, i.e. there is strong evidence to suggest that the heights of the two groups are different. When examining the means, it is clear to see that the females are, on average, taller than the males.
 
-Q12. Cohen's *d* = 0.98, so a large effect size.
+[A12]{}. Cohen's *d* = 0.98, so a large effect size.
 
-Q13. On average, there was a significant difference between the height of males (*M* = 166.78) and females (*M* = 174.52). The difference was significant, *t*(49) = -3.305, *p* = 0.002, *d* = 0.982.
+[A13]{}. On average, there was a significant difference between the height of males (*M* = 166.78) and females (*M* = 174.52). The difference was significant, *t*(49) = -3.305, *p* = 0.002, *d* = 0.982.
 
-Q14. The Shapiro-Wilk test for normality here results in a significant *p* value (0.004), telling us that this data is significantly different from a normal distribution and therefore non-parametric.
+[A14]{}. The Shapiro-Wilk test for normality here results in a significant *p* value (0.004), telling us that this data is significantly different from a normal distribution and therefore non-parametric.
 
-Q15. **H~0~**: There is no difference in the distribution of perception across the course type (therapists vs non-therapists). **H~1~**: There is a difference in the distribution of perception across the course type (therapist vs non-therapist)
+[A15]{}. **H~0~**: There is no difference in the distribution of perception across the course type (therapists vs non-therapists). **H~1~**: There is a difference in the distribution of perception across the course type (therapist vs non-therapist)
 
-Q16. The Mann-Whitney U test is the non-parametric equivalent for comparing the mean scores across two different groups.
+[A16]{}. The Mann-Whitney U test is the non-parametric equivalent for comparing the mean scores across two different groups.
 
-Q17. The median score for both groups is 3.
+[A17]{}. The median score for both groups is 3.
 
-Q18. The mean perception score is 2.77 for therapists, and 2.87 for non-therapists.
+[A18]{}. The mean perception score is 2.77 for therapists, and 2.87 for non-therapists.
 
-Q19. *p* = 0.727. This means that there is little evidence against the null hypothesis that the two distributions are equal, i.e. we should accept the null hypothesis that there is no difference in the distribution of perception of fitness between the therapists and non-therapists. Overall, while gender appears to make a difference to the self-perception of fitness, the course being taken does not.
+[A19]{}. *p* = 0.727. This means that there is little evidence against the null hypothesis that the two distributions are equal, i.e. we should accept the null hypothesis that there is no difference in the distribution of perception of fitness between the therapists and non-therapists. Overall, while gender appears to make a difference to the self-perception of fitness, the course being taken does not.
 
-Q20. The rank biserial correlation is 0.063, a very small effect size.
+[A20]{}. The rank biserial correlation is 0.063, a very small effect size.
 
-Q21. Self-perception of fitness in therapists (Mdn = 3.0) did not differ significantly from that in non-therapists (Mdn = 3.0), U = 246.000, *p* = 0.727, rank biserial correlation = 0.063.
+[A21]{}. Self-perception of fitness in therapists (Mdn = 3.0) did not differ significantly from that in non-therapists (Mdn = 3.0), U = 246.000, *p* = 0.727, rank biserial correlation = 0.063.
 
-Q22. Gender is nominal (or categorical) data.
+[A22]{}. Gender is nominal (or categorical) data.
 
-Q23. 1 = male, 2 = female.
+[A23]{}. 1 = male, 2 = female.
 
-Q24. Go to Analyse, then Descriptives, and set SnRDiff as the variable. Shapiro-Wilk for males and females are *p* = 0.774 and *p* = 0.171 respectively. This means that the distribution of the differences is not significantly different from normal, so parametric tests can be used.
+[A24]{}. Go to Analyse, then Descriptives, and set SnRDiff as the variable. Shapiro-Wilk for males and females are *p* = 0.774 and *p* = 0.171 respectively. This means that the distribution of the differences is not significantly different from normal, so parametric tests can be used.
 
-Q25. The 4 tests for running a parametric test are High level data (ratio or interval), Normal distribution, Equality of variance (*p* = 0.540), Independence of samples.
+[A25]{}. H~0~: µ~A~ = µ~B~, where µ~A~ and µ~B~ are the population means of the pre- and post-flexibility groups respectively. Null hypothesis: there is no difference between the pre and post sit and reach scores in males. Alternative hypothesis: there is a difference between the pre and post sit and reach scores in males
 
-Q27. H~0~: µ~A~ = µ~B~, where µ~A~ and µ~B~ are the population means of the pre- and post-flexibility groups respectively. Null hypothesis: there is no difference between the pre and post sit and reach scores in males. Alternative hypothesis: there is a difference between the pre and post sit and reach scores in males
+[A26]{}. Shapiro Wilk (against SnRDiff): *p* = 0.774. As *p* > 0.5, data is not significantly different from a normal distribution. Data is high level, and there is sample independence. Finally equality of variance can be checked with our ‘rule of thumb. Pre variance = 23.514, post variance = 35.904, so the ratio = 1.53, well within our limit of 3 for equality of variance.
 
-Q28. Shapiro Wilk (against SnRDiff): *p* = 0.774. As *p* > 0.5, data is not significantly different from a normal distribution. Data is high level, and there is sample independence. Finally equality of variance can be checked with our ‘rule of thumb. Pre variance = 23.514, post variance = 35.904, so the ratio = 1.53, well within our limit of 3 for equality of variance.
+[A27]{}. Pre: Mean = 4.59 cm, sd = 4.85 cm. Post: Mean = 6.60 cm, sd = 5.99 cm.
 
-Q29. Pre: Mean = 4.59 cm, sd = 4.85 cm. Post: Mean = 6.60 cm, sd = 5.99 cm.
+[A28]{}. The 95% confidence interval for the mean difference between the pre- and post-reach for males is -3.370 to -0.650 cm. As the range does not cross the zero, it suggests that there will be a difference between the pre and post scores.
 
-Q30. The 95% confidence interval for the mean difference between the pre- and post-reach for males is -3.370 to -0.650 cm. As the range does not cross the zero, it suggests that there will be a difference between the pre and post scores.
+[A29]{}. *t* = -3.343
 
-Q31. *t* = -3.343
+[A30]{}. *p* = 0.009
 
-Q32. *p* = 0.009
+[A31]{}. *p* is significant at the 0.01 level, so there is strong evidence against the null hypothesis that the mean pre  and post values are the same. Pre and post sit and reach scores are significantly different in the male sample. From the data there is strong evidence that our intervention increased flexibility.
 
-Q33. *p* is significant at the 0.01 level, so there is strong evidence against the null hypothesis that the mean pre  and post values are the same. Pre and post sit and reach scores are significantly different in the male sample. From the data there is strong evidence that our intervention increased flexibility.
+[A32]{}. *d* = 1.06, a large effect size.
 
-Q34. *d* = 1.06, a large effect size.
+[A33]{}. On average, male participants experienced greater sit and reach scores after intervention (M = 6.60, SE = 1.89) compared to before intervention (M = 4.84, SE = 1.53), *t*(10) = -3.343, *p* = 0.009, *d* = 0.744.
 
-Q35. On average, male participants experienced greater sit and reach scores after intervention (M = 6.60, SE = 1.89) compared to before intervention (M = 4.84, SE = 1.53), *t*(10) = -3.343, *p* = 0.009, *d* = 0.744.
+[A34]{}. Female median flexibility pre = 10.3 cm. Female median flexibility post = 10.45 cm.
 
-Q36. Female median flexibility pre = 10.3 cm. Female median flexibility post = 10.45 cm.
+[A35]{}. The *p*-value is 0.092. This shows there is little evidence against the null hypothesis that there is any difference in the pre- and post-overall flexibility scores.
 
-Q37. It would appear that the female flexibility has increased after our intervention. We should consider this later when running a two-tailed hypothesis test.
+[A36]{}. The *W* value is 10.500.
 
-Q38. The *p*-value is 0.092. This shows there is little evidence against the null hypothesis that there is any difference in the pre- and post-overall flexibility scores.
+[A37]{}. The effect size is 0.62, a large effect.
 
-Q37. The *W* value is 10.500.
-
-Q38. The effect size is 0.62, a large effect.
-
-Q39. For our sample of female students, overall flexibility did not differ significantly between pre-intervention (Mdn = 10.30) and post-intervention (Mdn = 10.45), *W* = 2, *p* = 0.092, rank biserial correlation = 0.62.
+[A38]{}. For our sample of female students, overall flexibility did not differ significantly between pre-intervention (Mdn = 10.30) and post-intervention (Mdn = 10.45), *W* = 2, *p* = 0.092, rank biserial correlation = 0.62.
 
 :::
