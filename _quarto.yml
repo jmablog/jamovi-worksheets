@@ -18,11 +18,11 @@ self-contained: true
 # Can also change the referencing style here using a
 # different csl file - many more can be found at
 # https://github.com/citation-style-language/styles
-bibliography:
-  - _bib/references.bib
-csl: _bib/citethemright10th.csl
+# bibliography:
+ #  - _bib/references.bib
+# csl: _bib/citethemright10th.csl
 
-modulecode: 'ST4056'
+# modulecode: ''
 
 # output format options - change these as required
 format:

@@ -1,5 +1,5 @@
 ---
-title: 'ST4011 - Jamovi Worksheets'
+title: 'Jamovi Worksheets'
 ---
 
 Click each link below to access the worksheet:
