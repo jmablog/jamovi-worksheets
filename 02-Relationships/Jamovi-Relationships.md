@@ -320,7 +320,7 @@ The significance value again can be read as a measure of whether the predictor i
 
 [A23]{}. Model 1 R^2^ = 0.278, Model 2 R^2^ = 0.401. This says that approximately 28% of Reach in Model 1 and 40% of Reach in Model 2 can be predicted while the remaining 72% or 60% of the model comes from other factors.
 
-[A24]{}. Using the given model, and the sternal height of 42 cm, and arm length of 51 cm: Reach = 15.327 + 0.079 * 42 + 0.663 * 51 = 53.4cm. Our model would suggest a reach of 53.4 cm for the given sternal height and arm length.
+[A24]{}. Using the given model, and the sternal height of 42 cm, and arm length of 51 cm: Reach = 15.327 + 0.079 * 42 + 0.663 * 51 = 52.458 cm. Our model would suggest a reach of 52.5 cm for the given sternal height and arm length.
 
 [A25]{}. Using just the whole arm length in the model, reduces our R^2^ to 0.400. While this appears to be ‘worse’, the difference is negligible and also removes the non-significant torso length from the model.
 

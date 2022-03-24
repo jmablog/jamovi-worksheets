@@ -2813,6 +2813,7 @@ vertical-align: -.125em;
         <header>
       <h1 class="title display-7">Chi-squared</h1>
       
+            <p class="subtitle lead">Stats with Jamovi</p>
             
             
             
@@ -2961,7 +2962,7 @@ vertical-align: -.125em;
       <p>Because of this calculation, cell A - male and sports therapy - becomes the main cell we are comparing against. We can therefore read our odds ratio result of 4.4 as, “males were 4.4 times as likely as females to be sports therapists rather than sport and dance therapists”.</p>
       <p>This might seem strange at first, as looking at our raw observed figures ‘10 male sports therapists’ is not 4 times larger than ‘5 male sport and dance therapists’. But this is because the odds ratio is not a direct comparison of our figures in this way. Odds can definitely get a bit confusing, so we won’t look at it in a lot of detail, but briefly the odds ratio is defined as:</p>
       <p><strong>The ratio of the odds of A in the <em>presence</em> of B, and the odds of A in the <em>absence</em> of B. Two events are independent if the odds ratio equals 1, i.e., the odds of one event are the same in either the presence or absence of the other event.</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-      <p>This is why the odds ratio can only be calculated in a 2x2 table, as we are technically calculating the ratio of the odds of being male and a sports therapist, and the odds of being <strong>not</strong> male and <strong>not</strong> a sports therapist. Because there is only one other group in each variable we can then just interpret these <strong>not</strong> groups as ‘female’ and ‘dance therapist’.</p>
+      <p>This is why the odds ratio can only be calculated in a 2x2 table, as we are technically calculating the ratio between the odds of being male and a sports therapist, and the odds of being male and <strong>not</strong> a sports therapist. Because there is only one other group in each variable we can then just interpret these <strong>not</strong> groups as ‘female’ and ‘dance therapist’.</p>
       <p>We can reverse the reading of our odds ratio by taking the <strong>reciprocal</strong> of it, by calculating:</p>
       <p><strong>1 / Odds Ratio</strong></p>
       <p>Which in this case is:</p>
@@ -2969,7 +2970,7 @@ vertical-align: -.125em;
       <p>Which can be read as, “females were 0.23 times as likely to be sports therapists than males.” As this number is less than 1, we can see this means they were less likely to be sports therapists than males.</p>
       <p>Setting up your data to answer the specific question you have in mind is therefore important for the odds ratio calculation - you could, for example, swap the gender data labels so that Female becomes the first row to be compared against, in which case our odds ratio result in Jamovi would jump straight to the 0.23 result given above and we’d need to take the reciprocal to get our original 4.4 answer.</p>
       <div class="Aside">
-      <p>You might spot the ‘log odds ratio’ in the statistics menu options. This is similar to the odds ratio, but standardised so that positive odds are always positive numbers, negative odds are always negative numbers, and the distance between odds are standardised. It can be useful when you are comparing odds between data sets that may be different sizes. You can read more about it here: https://www.geeksforgeeks.org/log-odds/</p>
+      <p>You might spot the ‘log odds ratio’ in the statistics menu options. This is similar to the odds ratio, but standardised so that positive odds are always positive numbers, negative odds are always negative numbers, and the distance between odds are standardised. It can be useful when you are comparing odds between data sets that may be different sizes. You can read more about it here: <a href="https://www.geeksforgeeks.org/log-odds/">https://www.geeksforgeeks.org/log-odds/</a></p>
       </div>
       </section>
       <section id="more-than-2x2-contingency-tables" class="level2">
@@ -3041,7 +3042,7 @@ vertical-align: -.125em;
       <ol>
       <li id="fn1" role="doc-endnote"><p>Field, 19.4, Assumptions where analysing categorical data, p.&nbsp;735.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       <li id="fn2" role="doc-endnote"><p>Field, 18.5, Doing chi-square in SPSS, p.&nbsp;736<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-      <li id="fn3" role="doc-endnote"><p><a href="https://en.wikipedia.org/wiki/Odds_ratio">https://en.wikipedia.org/wiki/Odds_ratio</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+      <li id="fn3" role="doc-endnote"><p>See <a href="https://finnstats.com/index.php/2022/02/07/odds-ratio-interpretation-quick-guide/">https://finnstats.com/index.php/2022/02/07/odds-ratio-interpretation-quick-guide/</a> for a walkthrough.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </ol>
       </section>
       

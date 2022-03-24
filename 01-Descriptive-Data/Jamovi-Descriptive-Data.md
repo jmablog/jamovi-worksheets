@@ -16,23 +16,21 @@ abstract: |
 
 \wordtoc
 
-# Week 1
+# Getting familiar with Jamovi
 
-In this first week, we will mostly just be getting used to how to use Jamovi, and how to set up our data.
+In this section, we will mostly just be getting used to how to use Jamovi, and how to set up our data.
 
-## Installing Jamovi
+## Installing Jamovi on your own computer
 
-Download Jamovi for your computer from:
+As Jamovi is a free and open-source application, you can easily install it on your own computer. Download the Jamovi installer for your system from:
 
 [https://www.jamovi.org/download.html](https://www.jamovi.org/download.html)
 
-If given the option, choose the '**Solid**' installation version.
-
-Jamovi is just a regular application installation for Windows and Mac, but Jamovi is also available for Linux and Chromebooks with some extra steps. For full instructions on how to install Jamovi for any system, see section 1 of the **Jamovi user-guide** here:
+If given the option, choose the '**Solid**' version. Once the installer is downloaded, double-click on it to install Jamovi to your computer. For a full walk-through and instructions on how to install Jamovi, see section 1 of the **Jamovi user-guide** here:
 
 ‌[https://www.jamovi.org/user-manual.html](https://www.jamovi.org/user-manual.html)
 
-If for some reason you cannot install Jamovi on your computer, you can use an online version of Jamovi here:
+Jamovi is just a regular application installation for Windows and Mac, but Jamovi is also available for Linux and Chromebooks with some extra steps (see the user-guide link above for more detail). If for some reason you cannot install Jamovi on your computer, you can use an online version of Jamovi here:
 
 [https://cloud.jamovi.org/](https://cloud.jamovi.org/)
 
@@ -52,11 +50,9 @@ In particular, there is a YouTube playlist of useful Jamovi video guides ([click
 
 ## Download the data files
 
-Download **all** the Jamovi data files from Weblearn and save them somewhere you can easily access them.
+Download **all** the Jamovi data files from [GitHub](https://github.com/jmablog/jamovi-worksheets) and save them somewhere you can easily access them.
 
 Jamovi uses the '.omv' file extension, which is a custom file format. Unlike other file formats, you might not be able to double-click these as a shortcut to open them in Jamovi - don't worry, you just need to open Jamovi first, then open them from within Jamovi.
-
-If you want to use the same data files on both your own computer and a university computer, either save them to a USB memory stick you can plug in wherever you are working, or save them into your [university Google Drive](https://student.londonmet.ac.uk/webmail/) account. To use Google Drive offline on your computer, install [Google Backup & Sync](https://www.google.com/drive/download/).
 
 ## First look at Jamovi
 
@@ -251,7 +247,7 @@ Use the **File** menu from before to save your work - click the three stacked wh
 
 \newpage
 
-# Week 2
+# Descriptives, plots, and parametric testing
 
 Now that we have our data setup in Jamovi, we can start investigating it with some descriptives, some basic plots, and some parametric testing.
 

@@ -203,9 +203,9 @@ Because of this calculation, cell A - male and sports therapy - becomes the main
 
 This might seem strange at first, as looking at our raw observed figures '10 male sports therapists' is not 4 times larger than '5 male sport and dance therapists'. But this is because the odds ratio is not a direct comparison of our figures in this way. Odds can definitely get a bit confusing, so we won't look at it in a lot of detail, but briefly the odds ratio is defined as:
 
-**The ratio of the odds of A in the *presence* of B, and the odds of A in the *absence* of B. Two events are independent if the odds ratio equals 1, i.e., the odds of one event are the same in either the presence or absence of the other event.**^[[https://en.wikipedia.org/wiki/Odds_ratio](https://en.wikipedia.org/wiki/Odds_ratio)]
+**The ratio of the odds of A in the *presence* of B, and the odds of A in the *absence* of B. Two events are independent if the odds ratio equals 1, i.e., the odds of one event are the same in either the presence or absence of the other event.**^[See [https://finnstats.com/index.php/2022/02/07/odds-ratio-interpretation-quick-guide/](https://finnstats.com/index.php/2022/02/07/odds-ratio-interpretation-quick-guide/) for a walkthrough.]
 
-This is why the odds ratio can only be calculated in a 2x2 table, as we are technically calculating the ratio of the odds of being male and a sports therapist, and the odds of being **not** male and **not** a sports therapist. Because there is only one other group in each variable we can then just interpret these **not** groups as 'female' and 'dance therapist'.
+This is why the odds ratio can only be calculated in a 2x2 table, as we are technically calculating the ratio between the odds of being male and a sports therapist, and the odds of being male and **not** a sports therapist. Because there is only one other group in each variable we can then just interpret these **not** groups as 'female' and 'dance therapist'.
 
 We can reverse the reading of our odds ratio by taking the **reciprocal** of it, by calculating:
 
@@ -221,7 +221,7 @@ Setting up your data to answer the specific question you have in mind is therefo
 
 ::: Aside
 
-You might spot the 'log odds ratio' in the statistics menu options. This is similar to the odds ratio, but standardised so that positive odds are always positive numbers, negative odds are always negative numbers, and the distance between odds are standardised. It can be useful when you are comparing odds between data sets that may be different sizes. You can read more about it here: https://www.geeksforgeeks.org/log-odds/
+You might spot the 'log odds ratio' in the statistics menu options. This is similar to the odds ratio, but standardised so that positive odds are always positive numbers, negative odds are always negative numbers, and the distance between odds are standardised. It can be useful when you are comparing odds between data sets that may be different sizes. You can read more about it here: [https://www.geeksforgeeks.org/log-odds/](https://www.geeksforgeeks.org/log-odds/)
 
 :::
 
