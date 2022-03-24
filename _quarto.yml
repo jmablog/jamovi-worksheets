@@ -5,6 +5,8 @@ project:
   output-dir: "_OUTPUT"
   post-render: 
       - _resources/scripts/return-to-source.ts
+    # - _resources/scripts/cleanup.ts
+    # - _resources/scripts/post.R
 
 # options for all formats - suggested not to change
 from: markdown+raw_attribute+raw_tex
@@ -19,10 +21,10 @@ self-contained: true
 # different csl file - many more can be found at
 # https://github.com/citation-style-language/styles
 # bibliography:
- #  - _bib/references.bib
+#   - _bib/references.bib
 # csl: _bib/citethemright10th.csl
 
-# modulecode: ''
+modulecode: 'Stats with Jamovi'
 
 # output format options - change these as required
 format:
